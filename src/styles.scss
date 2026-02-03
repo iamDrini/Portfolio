@@ -7,8 +7,18 @@
     scroll-behavior: smooth;
 }
 
+body {
+    max-width: 2560px;
+    margin: 0 auto;
+    overflow:hidden;
+}
+
 button{
     cursor: pointer;
+}
+
+a{
+  cursor: pointer;
 }
 
 h1{
