@@ -1,0 +1,15 @@
+{
+    "header":{
+        "about": "About me",
+        "skills": "Skills",
+        "projects": "Projects"
+    },
+    "landing":{
+        "frontend":"Frontend Developer",
+        "check":"Check my work",
+        "contact":"Contact me",
+        "based":"Based in Memmingen (GER)",
+        "open": "Open to work",
+        "available":"Available for remote work"
+    }
+}

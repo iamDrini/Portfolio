@@ -1,0 +1,15 @@
+{
+    "header":{
+        "about": "Über mich",
+        "skills": "Fähigkeiten",
+        "projects": "Projekte"
+    },
+    "landing":{
+        "frontend":"Frontend-Entwickler",
+        "check":"Meine Arbeiten ansehen",
+        "contact":"Kontakt aufnehmen",
+        "based":"Aus Memmingen",
+        "open": "Offen für Jobs",
+        "available":"Remote verfügbar"
+    }
+}

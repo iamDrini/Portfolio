@@ -1,13 +1,13 @@
 <nav>
     <div class="left-nav">
-        <div class="lang-toggle" [attr.data-lang]="lang" (click)="toggleLang()">
+        <div class="lang-toggle" [attr.data-lang]="currentLang" (click)="switchLanguage(currentLang === 'de' ? 'en' : 'de')">
             <span class="option en">EN</span>
             <span class="option de">DE</span>
             <div class="slider"></div>
         </div>
-        <a>About me</a>
-        <a>Skills</a>
-        <a>Projects</a>
+        <a>{{'header.about'| transloco}}</a>
+        <a>{{'header.skills' | transloco}}</a>
+        <a>{{'header.projects' | transloco}}</a>
     </div>
     <div class="right-nav">
         <img src="img/logo_transparent.png">
