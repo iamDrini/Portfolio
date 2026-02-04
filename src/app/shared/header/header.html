@@ -1,1 +1,15 @@
-<p>header works!</p>
+<nav>
+    <div class="left-nav">
+        <div class="lang-toggle" [attr.data-lang]="lang" (click)="toggleLang()">
+            <span class="option en">EN</span>
+            <span class="option de">DE</span>
+            <div class="slider"></div>
+        </div>
+        <a>About me</a>
+        <a>Skills</a>
+        <a>Projects</a>
+    </div>
+    <div class="right-nav">
+        <img src="img/logo_transparent.png">
+    </div>
+</nav>

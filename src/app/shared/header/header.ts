@@ -7,5 +7,10 @@ import { Component } from '@angular/core';
   styleUrl: './header.scss',
 })
 export class Header {
+  lang: 'en' | 'de' = 'en';
+
+  toggleLang(): void {
+    this.lang = this.lang === 'en' ? 'de' : 'en';
+  }
 
 }
