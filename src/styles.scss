@@ -10,7 +10,7 @@
 body {
     max-width: 2560px;
     margin: 0 auto;
-    overflow:hidden;
+    overflow-x: hidden;
 }
 
 button{
@@ -33,6 +33,13 @@ h2{
     font-weight:400;
     font-size: 40px;
     color: #d9d9d9;
+}
+
+h3{
+  font-family:'Fira Code';
+  font-weight:700;
+  font-size: 64px;
+  color:#3DCFB6;
 }
 
 /* fira-code-300 - latin */

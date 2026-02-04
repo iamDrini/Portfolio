@@ -11,5 +11,13 @@
         "based":"Based in Memmingen (GER)",
         "open": "Open to work",
         "available":"Available for remote work"
+    },
+    "aboutMe":{
+        "topic":"Who I Am",
+        "title":"About me",
+        "text":"Hey, I’m Valdrin Murselji, a frontend-focused developer with a Bachelor’s degree in Business Informatics. What excites me most about frontend development is turning code into something people can directly see and use. I enjoy working with clear structure, clean logic, and a strong attention to detail. The most rewarding part for me is seeing an idea turn into a functional and intuitive user interface.",
+        "location":"Based in Memmingen, Germany — open to remote work.",
+        "learning":"My current focus is on Angular. I deliberately invest time in building clean components, keeping logic understandable, and truly grasping UI behavior. In the long term, I’m also interested in learning backend development to better understand applications as a whole and contribute to projects across all layers. I learn best through hands-on experimentation, iteration, and practical implementation — curiosity and a willingness to explore are key parts of how I work.",
+        "solving":"I approach problems analytically and place strong emphasis on performance, structure, and maintainability in frontend development. I value collaboration and team discussions, as good interfaces benefit from different perspectives. When it comes to implementation, I prefer working focused and independently. I’m solution-oriented, detail-driven, and continuously improving with every project."
     }
 }

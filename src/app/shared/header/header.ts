@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { TranslocoPipe, TranslocoService } from '@jsverse/transloco';
 import { inject } from '@angular/core';
 
@@ -8,9 +8,17 @@ import { inject } from '@angular/core';
   templateUrl: './header.html',
   styleUrl: './header.scss',
 })
-export class Header {
+export class Header implements OnInit {
   private translocoService = inject(TranslocoService);
   currentLang = this.translocoService.getActiveLang();
+
+  ngOnInit() {
+    const savedLang = localStorage.getItem('language');
+    if (savedLang === 'en' || savedLang === 'de') {
+      this.translocoService.setActiveLang(savedLang);
+      this.currentLang = savedLang;
+    }
+  }
 
   switchLanguage(lang: 'en' | 'de'){
     this.translocoService.setActiveLang(lang);

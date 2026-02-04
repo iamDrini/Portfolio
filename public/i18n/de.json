@@ -11,5 +11,13 @@
         "based":"Aus Memmingen",
         "open": "Offen für Jobs",
         "available":"Remote verfügbar"
+    },
+     "aboutMe":{
+        "topic":"Wer ich bin",
+        "title":"Über mich",
+        "text":"Hey, ich bin Valdrin Murselji, Frontend-orientierter Entwickler mit einem abgeschlossenen Bachelor in Wirtschaftsinformatik. Mich begeistert am Frontend vor allem, dass aus Code etwas entsteht, das Menschen direkt sehen und benutzen. Ich arbeite gerne mit klarer Struktur, sauberer Logik und einem Auge fürs Detail. Besonders motivierend ist für mich der Moment, in dem aus einer Idee eine funktionierende, intuitive Oberfläche wird.",
+        "location":"Memmingen, Deutschland – offen für Remote-Arbeit.",
+        "learning":"Mein aktueller Fokus liegt auf Angular. Ich investiere bewusst Zeit darin, Komponenten sauber aufzubauen, Logik verständlich zu halten und UI-Verhalten wirklich zu verstehen. Perspektivisch interessiert mich auch der Backend-Bereich, um Anwendungen ganzheitlich zu verstehen und Projekte auf allen Ebenen begleiten und mitgestalten zu können. Ich lerne am besten durch Ausprobieren, Iteration und praktische Umsetzung – Neugier und Experimentierfreude gehören für mich dazu.",
+        "solving":"Ich gehe Probleme analytisch an und lege im Frontend besonderen Wert auf Performance, Struktur und Wartbarkeit. Austausch im Team ist mir wichtig, weil gute Interfaces von unterschiedlichen Perspektiven profitieren. Beim Umsetzen arbeite ich gerne konzentriert und fokussiert. Ich denke lösungsorientiert, arbeite detailbewusst und entwickle mich mit jedem Projekt kontinuierlich weiter."
     }
 }
