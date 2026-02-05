@@ -1,31 +1,34 @@
 {
-    "header":{
+    "header": {
         "about": "About me",
         "skills": "Skills",
         "projects": "Projects"
     },
-    "landing":{
-        "frontend":"Frontend Developer",
-        "check":"Check my work",
-        "contact":"Contact me",
-        "based":"Based in Memmingen (GER)",
+    "landing": {
+        "frontend": "Frontend Developer",
+        "check": "Check my work",
+        "contact": "Contact me",
+        "based": "Based in Memmingen (GER)",
         "open": "Open to work",
-        "available":"Available for remote work"
+        "available": "Available for remote work"
     },
-    "aboutMe":{
-        "topic":"Who I Am",
-        "title":"About me",
-        "text":"Hi, I’m Valdrin Murselji, a frontend-focused developer with a Bachelor’s degree in Business Informatics. I enjoy building interfaces that people actually use and working at the intersection of logic, structure, and visual design. Turning ideas into clean, functional user interfaces is what motivates me most.",
-        "location":"Based in Memmingen, Germany — open to remote work.",
-        "learning":"My current focus is on Angular, where I aim to build well-structured and maintainable components. Long term, I’m interested in learning backend development to better understand applications end to end. I learn best through hands-on experimentation and continuous improvement.",
-        "solving":"I approach problems analytically and care about performance and maintainability. I approach problems analytically and value performance and maintainability. Team collaboration is important to me, especially when exchanging ideas and discussing solutions."
+    "aboutMe": {
+        "topic": "Who I Am",
+        "title": "About me",
+        "text": "Hi, I’m Valdrin Murselji, a frontend-focused developer with a Bachelor’s degree in Business Informatics. I enjoy building interfaces that people actually use and working at the intersection of logic, structure, and visual design. Turning ideas into clean, functional user interfaces is what motivates me most.",
+        "location": "Based in Memmingen, Germany — open to remote work.",
+        "learning": "My current focus is on Angular, where I aim to build well-structured and maintainable components. Long term, I’m interested in learning backend development to better understand applications end to end. I learn best through hands-on experimentation and continuous improvement.",
+        "solving": "I approach problems analytically and care about performance and maintainability. I approach problems analytically and value performance and maintainability. Team collaboration is important to me, especially when exchanging ideas and discussing solutions."
     },
-    "skills":{
-        "topic":"Technologies",
-        "title":"Skill Set",
-        "text":"I have hands-on experience with core frontend technologies such as HTML, CSS, JavaScript, and TypeScript, as well as frameworks and tools like Angular, Material Design, and Firebase. I regularly work with Git, REST APIs, and follow agile principles such as Scrum. I’m open to learning new technologies and place strong value on keeping my skills up to date, as continuous learning is essential in the fast-evolving world of web development.",
-        "question":"You need another skill?",
-        "textContact":"Feel free to contact me. I look forward to expanding on my previous knowledge.",
-        "button":"Let's talk"
+    "skills": {
+        "topic": "Technologies",
+        "title": "Skill Set",
+        "text": "I have hands-on experience with core frontend technologies such as HTML, CSS, JavaScript, and TypeScript, as well as frameworks and tools like Angular, Material Design, and Firebase. I regularly work with Git, REST APIs, and follow agile principles such as Scrum. I’m open to learning new technologies and place strong value on keeping my skills up to date, as continuous learning is essential in the fast-evolving world of web development.",
+        "question": {
+            "part1": "You need",
+            "part2": " another skill?"
+        },
+        "textContact": "Feel free to contact me. I look forward to expanding on my previous knowledge.",
+        "button": "Let's talk"
     }
 }

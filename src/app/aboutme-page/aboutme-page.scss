@@ -1,5 +1,5 @@
 section {
-    background-color: black;
+    background-color: #1c1d1c;
     display: flex;
     justify-content: space-between;
     padding: 144px 112px;
@@ -31,7 +31,7 @@ section {
             background-color: rgba(61, 207, 182, 0.1);
             backdrop-filter: blur(4px);
             -webkit-backdrop-filter: blur(4px);
-            width: 568px;
+            max-width: 568px;
             p {
                 font-family: 'Karla';
                 font-weight: 400;
