@@ -15,9 +15,17 @@
     "aboutMe":{
         "topic":"Who I Am",
         "title":"About me",
-        "text":"Hey, I’m Valdrin Murselji, a frontend-focused developer with a Bachelor’s degree in Business Informatics. What excites me most about frontend development is turning code into something people can directly see and use. I enjoy working with clear structure, clean logic, and a strong attention to detail. The most rewarding part for me is seeing an idea turn into a functional and intuitive user interface.",
+        "text":"Hi, I’m Valdrin Murselji, a frontend-focused developer with a Bachelor’s degree in Business Informatics. I enjoy building interfaces that people actually use and working at the intersection of logic, structure, and visual design. Turning ideas into clean, functional user interfaces is what motivates me most.",
         "location":"Based in Memmingen, Germany — open to remote work.",
-        "learning":"My current focus is on Angular. I deliberately invest time in building clean components, keeping logic understandable, and truly grasping UI behavior. In the long term, I’m also interested in learning backend development to better understand applications as a whole and contribute to projects across all layers. I learn best through hands-on experimentation, iteration, and practical implementation — curiosity and a willingness to explore are key parts of how I work.",
-        "solving":"I approach problems analytically and place strong emphasis on performance, structure, and maintainability in frontend development. I value collaboration and team discussions, as good interfaces benefit from different perspectives. When it comes to implementation, I prefer working focused and independently. I’m solution-oriented, detail-driven, and continuously improving with every project."
+        "learning":"My current focus is on Angular, where I aim to build well-structured and maintainable components. Long term, I’m interested in learning backend development to better understand applications end to end. I learn best through hands-on experimentation and continuous improvement.",
+        "solving":"I approach problems analytically and care about performance and maintainability. I approach problems analytically and value performance and maintainability. Team collaboration is important to me, especially when exchanging ideas and discussing solutions."
+    },
+    "skills":{
+        "topic":"Technologies",
+        "title":"Skill Set",
+        "text":"I have hands-on experience with core frontend technologies such as HTML, CSS, JavaScript, and TypeScript, as well as frameworks and tools like Angular, Material Design, and Firebase. I regularly work with Git, REST APIs, and follow agile principles such as Scrum. I’m open to learning new technologies and place strong value on keeping my skills up to date, as continuous learning is essential in the fast-evolving world of web development.",
+        "question":"You need another skill?",
+        "textContact":"Feel free to contact me. I look forward to expanding on my previous knowledge.",
+        "button":"Let's talk"
     }
 }

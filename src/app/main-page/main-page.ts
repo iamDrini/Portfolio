@@ -2,10 +2,11 @@ import { Component } from '@angular/core';
 import { LandingPage } from "../landing-page/landing-page";
 import { Header } from "../shared/header/header";
 import { AboutmePage } from '../aboutme-page/aboutme-page';
+import { SkillsPage } from '../skills-page/skills-page';
 
 @Component({
   selector: 'app-main-page',
-  imports: [LandingPage, Header,AboutmePage],
+  imports: [LandingPage, Header,AboutmePage, SkillsPage],
   templateUrl: './main-page.html',
   styleUrl: './main-page.scss',
 })

@@ -6,8 +6,8 @@ section {
 
     .foto-container {
         position: relative;
-        width: 40%;
-        height: 90%;
+        width: 568px;
+        height: 568px;
     }
 
     .background-portrait {
@@ -24,15 +24,6 @@ section {
     }
 
     .about-me {
-        width: 40%;
-        h4 {
-            font-family: 'Karla';
-            font-weight: 500;
-            font-size: 24px;
-            color: #3DCFB6;
-            margin-bottom: 20px;
-        }
-
         .about-me-content {
             border: 1px solid #3DCFB6;
             border-radius: 30px;
@@ -40,7 +31,7 @@ section {
             background-color: rgba(61, 207, 182, 0.1);
             backdrop-filter: blur(4px);
             -webkit-backdrop-filter: blur(4px);
-
+            width: 568px;
             p {
                 font-family: 'Karla';
                 font-weight: 400;
