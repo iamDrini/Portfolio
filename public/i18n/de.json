@@ -24,7 +24,10 @@
         "topic": "Technologien",
         "title": "Skillset",
         "text": "Ich habe praktische Erfahrung mit zentralen Frontend-Technologien wie HTML, CSS, JavaScript und TypeScript sowie mit Frameworks und Tools wie Angular, Material Design und Firebase. Zudem arbeite ich regelmäßig mit Git, REST-APIs und nach agilen Prinzipien wie Scrum. Ich bin offen für neue Technologien und lege großen Wert darauf, meine Fähigkeiten kontinuierlich weiterzuentwickeln, da ständiges Lernen in der sich schnell verändernden Welt der Webentwicklung unerlässlich ist.",
-        "question": "Du brauchst eine weitere Fähigkeit?",
+        "question": {
+            "part1": "Du brauchst",
+            "part2": " eine weitere Fähigkeit?"
+        },
         "textContact": "Melde dich gerne bei mir. Ich freue mich darauf, mein bisheriges Wissen weiter auszubauen.",
         "button": "Lass uns sprechen"
     }
