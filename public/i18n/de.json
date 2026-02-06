@@ -31,5 +31,10 @@
         "textContact": "Melde dich gerne bei mir. Ich freue mich darauf, mein bisheriges Wissen weiter auszubauen.",
         "button": "Lass uns sprechen",
         "mindset": "Ich interessiere mich besonders dafür, React zu lernen und meine Python-Skills auszubauen."
+    },
+    "portfolio":{
+        "topic":"Portfolio",
+        "title":"Ausgewählte Projekte",
+        "text":"Entdecke hier eine Auswahl meiner Arbeiten – interagiere mit <br>den Projekten, um meine Fähigkeiten in Aktion zu sehen."
     }
 }

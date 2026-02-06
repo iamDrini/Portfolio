@@ -31,5 +31,10 @@
         "textContact": "Feel free to contact me. I look forward to expanding on my previous knowledge.",
         "button": "Let's talk",
         "mindset": "I have a special interest in learning React and expanding my Python skills"
+    },
+    "portfolio":{
+        "topic":"Portfolio",
+        "title":"Featured Projects",
+        "text":"Explore a selection of my work here - Interact with <br> projects to see my skills in action."
     }
 }
