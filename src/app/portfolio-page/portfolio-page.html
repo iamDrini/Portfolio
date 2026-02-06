@@ -4,7 +4,9 @@
         <h3>{{'portfolio.title' | transloco}}</h3>
         <span class="text-div" [innerHTML]="'portfolio.text' | transloco"></span>
         <div class="project-container">
-            <span class="project-name">Pokedex</span>
+            <span class="project-name">Pokedex<img class = "arrow-out" src="img/arrow_outward.svg"></span>
+            <img class="screenshot-project" [ngStyle]="{'top.px': 0, 'border-radius.px': 16}" src="img/portfolio/pokedex_screen.png">
+            <img class="screenshot-bg" [ngStyle]="{'top.px': 10 }" src="img/portfolio/background_screenshot.svg">
             <div>
                 <span>HTML</span>
                 <span class="color-green"> | </span>
@@ -18,7 +20,9 @@
             </div>
         </div>
         <div class="project-container">
-            <span class="project-name">Join</span>
+            <span class="project-name">Join<img class = "arrow-out" img src="img/arrow_outward.svg"></span>
+            <img class="screenshot-project" [ngStyle]="{'top.%': -50 }" src="img/portfolio/join_screen.png">
+            <img class="screenshot-bg" [ngStyle]="{'top.%': -40 }" src="img/portfolio/background_screenshot.svg">
             <div>
                 <span>HTML</span>
                 <span class="color-green"> | </span>
@@ -30,7 +34,9 @@
             </div>
         </div>
         <div class="project-container">
-            <span class="project-name">El Pollo Loco</span>
+            <span class="project-name">El Pollo Loco<img class = "arrow-out" img src="img/arrow_outward.svg"></span>
+            <img class="screenshot-project" [ngStyle]="{'bottom.px': 0 }" src="img/portfolio/pollo_screen.png">
+            <img class="screenshot-bg" [ngStyle]="{'bottom.px': -10 }" src="img/portfolio/background_screenshot.svg">
             <div>
                 <span>HTML</span>
                 <span class="color-green"> | </span>
