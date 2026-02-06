@@ -110,7 +110,7 @@ section {
             align-items: center;
             gap: 8px;
             width: 104px;
-            
+
             span {
                 text-align: center;
                 font-family: 'Fira Code';
@@ -173,11 +173,7 @@ section {
                                 border-radius: 8px;
                                 background-color: rgba(61, 207, 182, 0.1);
                                 padding: 8px;
-                                transition: transform 0.3s ease;
-
-                                &:hover {
-                                    transform: scale(1.1);
-                                }
+                                animation:none;
                             }
                         }
 
