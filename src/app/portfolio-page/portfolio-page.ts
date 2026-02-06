@@ -1,6 +1,8 @@
 import { NgStyle } from '@angular/common';
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
+import { MatDialog } from '@angular/material/dialog';
 import { TranslocoPipe } from '@jsverse/transloco';
+import { DialogPage } from '../shared/dialog-page/dialog-page';
 
 @Component({
   selector: 'app-portfolio-page',
@@ -9,5 +11,18 @@ import { TranslocoPipe } from '@jsverse/transloco';
   styleUrl: './portfolio-page.scss',
 })
 export class PortfolioPage {
+  readonly dialog = inject(MatDialog);
+
+  openDialog(type: 'pokedex' | 'join'| 'pollo'){
+    this.dialog.open(DialogPage, {
+      data: {
+        type: type
+      },
+      width: '90vw',
+      maxWidth: '90vw',
+      height: 'auto',
+      panelClass:'custom-dialog'
+    });
+  }
 
 }

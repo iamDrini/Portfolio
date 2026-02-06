@@ -1,0 +1,18 @@
+import { } from '@angular/compiler';
+import { Component, ChangeDetectionStrategy, inject} from '@angular/core';
+import { MatButtonModule } from '@angular/material/button';
+import { MAT_DIALOG_DATA, MatDialogActions, MatDialogClose, MatDialogContent, MatDialogTitle } from '@angular/material/dialog';
+import { TranslocoPipe } from '@jsverse/transloco';
+
+@Component({
+  selector: 'app-dialog-page',
+  imports: [MatDialogTitle, MatDialogContent, MatDialogActions, MatDialogClose, MatButtonModule,TranslocoPipe],
+  templateUrl: './dialog-page.html',
+  styleUrl: './dialog-page.scss',
+  changeDetection: ChangeDetectionStrategy.OnPush
+})
+export class DialogPage {
+  data = inject<{ type: string }>(MAT_DIALOG_DATA);
+  dialogType = this.data.type;
+
+}

@@ -1,0 +1,20 @@
+.custom-dialog{
+section {
+    background-image: url('/img/firstBackground.png');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    width: 100%;
+    padding: 90px 80px;
+
+    .left-content {
+        width: 50%;
+    }
+
+    .right-content {
+        width: 50%;
+        .project-screen{
+            width: 300px;
+        }
+    }
+}}
