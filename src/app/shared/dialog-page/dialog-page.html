@@ -2,9 +2,9 @@
     <div class="left-content">
         <h1>{{ 'dialogs.' + dialogType + '.number' | transloco }}</h1>
         <h3>{{ 'dialogs.' + dialogType + '.title' | transloco }}</h3>
-        <span>{{ 'dialogs.' + dialogType + '.question' | transloco }}</span>
+        <span class="question">{{ 'dialogs.' + dialogType + '.question' | transloco }}</span>
         <p>{{ 'dialogs.' + dialogType + '.text' | transloco }}</p>
-        <span [innerHTML]="('dialogs.' + dialogType + '.technologies') | transloco"></span>
+        <span class="technologies" [innerHTML]="('dialogs.' + dialogType + '.technologies') | transloco"></span>
         <div class="link-container">
             <div [innerHTML]="('dialogs.' + dialogType + '.gitHubLink') | transloco"></div>
             <div [innerHTML]="('dialogs.' + dialogType + '.liveTestLink') | transloco"></div>
@@ -12,7 +12,7 @@
     </div>
     <div class="right-content">
         <button matButton mat-dialog-close>X</button>
-        <div [innerHTML]="('dialogs.' + dialogType + '.imgSrc') | transloco"></div>
+        <img class="project-screen" [src]="('dialogs.' + dialogType + '.imgSrc') | transloco">
         <button matButton mat-dialog-close>Next project <img src="img/portfolio/arrow_forward.svg"></button>
     </div>
 </section>

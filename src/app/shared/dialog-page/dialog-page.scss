@@ -1,20 +1,59 @@
-.custom-dialog{
-section {
-    background-image: url('/img/firstBackground.png');
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    width: 100%;
-    padding: 90px 80px;
 
-    .left-content {
-        width: 50%;
-    }
+.custom-dialog {
+    section {
+        background-image: url('/img/firstBackground.png');
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: space-between;
+        padding: 55px 80px;
+        gap:88px;
 
-    .right-content {
-        width: 50%;
-        .project-screen{
-            width: 300px;
+        .left-content {
+            width: 50%;
+            h1{
+                color: #3DCFB6;
+            }
+            h3{
+                color:#FFFFFF;
+                margin-bottom: 40px;
+            }
+            .question{
+                color:#3DCFB6;
+                font-family: 'Fira Code';
+                font-size: 24px;
+                font-weight: 700;
+                margin-bottom: 20px;
+            }
+
+            .technologies {
+                display: flex;
+                gap: 16px;
+                margin-top: 32px;
+
+                div {
+                    display: flex;
+                    align-items: center;
+                    gap: 8px;
+                }
+            }
+            .link-container{
+                display:flex;
+            }
+        }
+
+        .right-content {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            justify-content: space-between;
+            width:50%;
+
+            .project-screen {
+                height: auto;
+                border-radius: 30px;
+                width: 100%;
+            }
         }
     }
-}}
+}

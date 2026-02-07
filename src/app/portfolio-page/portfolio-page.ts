@@ -19,7 +19,7 @@ export class PortfolioPage {
         type: type
       },
       width: '90vw',
-      maxWidth: '90vw',
+      maxWidth: '1820px',
       height: 'auto',
       panelClass:'custom-dialog'
     });

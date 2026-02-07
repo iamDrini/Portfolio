@@ -46,7 +46,7 @@
             "technologies":"<div><img src='img/skills/CSS.png'><span>CSS</span></div><div><img src='img/skills/HTML.png'><span>HTML</span></div><div><img src='img/skills/JavaScript.png'><span>JavaScript</span></div><div><img src='img/skills/Rest-Api.png'><span>REST-API</span></div>",
             "gitHubLink": "<a href='https://github.com/iamDrini/Pokedex'>Github<img src='img/arrow_outward.svg'></a>",
             "liveTestLink":"<a href='https://valdrin-murselji.developerakademie.net/Pokedex/index.html'>Live Test<img src='img/arrow_outward.svg'></a>",
-            "imgSrc":"<img class='project-screen' src='img/portfolio/pokedex_screen.png'>"
+            "imgSrc":"img/portfolio/pokedex_screen.png"
         },
         "join": {
             "number": "02",
@@ -56,7 +56,7 @@
             "technologies":"<div><img src='img/skills/CSS.png'><span>CSS</span></div><div><img src='img/skills/HTML.png'><span>HTML</span></div><div><img src='img/skills/JavaScript.png'><span>JavaScript</span></div><div><img src='img/skills/Firebase.png'><span>Firebase</span></div>",
             "gitHubLink": "<a href='https://github.com/iamDrini/Join'>Github<img src='img/arrow_outward.svg'></a>",
             "liveTestLink":"<a href='https://valdrin-murselji.developerakademie.net/Join/index.html'>Live Test<img src='img/arrow_outward.svg'></a>",
-            "imgSrc":"<img class='project-screen' src='img/portfolio/pokedex_screen.png'>"
+            "imgSrc":"img/portfolio/join_screen.svg"
         },
         "pollo": {
             "number": "03",
@@ -66,7 +66,7 @@
             "technologies":"<div><img src='img/CSS.png'><span>CSS</span></div><div><img src='img/HTML.png'><span>HTML</span></div><div><img src='img/JavaScript.png'><span>JavaScript</span></div>",
             "gitHubLink": "<a href='https://github.com/iamDrini/El-Pollo-Loco'>Github<img src='img/arrow_outward.svg'></a>",
             "liveTestLink":"<a href='https://valdrin-murselji.developerakademie.net/El-Pollo-Loco/index.html'>Live Test<img src='img/arrow_outward.svg'></a>",
-            "imgSrc":"<img class='project-screen' src='img/portfolio/pokedex_screen.png'>"
+            "imgSrc":"img/portfolio/pollo_screen.svg"
         }
     }
 }
