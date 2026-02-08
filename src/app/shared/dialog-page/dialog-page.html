@@ -11,8 +11,8 @@
         </div>
     </div>
     <div class="right-content">
-        <button matButton mat-dialog-close>X</button>
+        <button matButton mat-dialog-close><img src="img/portfolio/Close_Button.svg"></button>
         <img class="project-screen" [src]="('dialogs.' + dialogType + '.imgSrc') | transloco">
-        <button matButton mat-dialog-close>Next project <img src="img/portfolio/arrow_forward.svg"></button>
+        <button matButton (click)="nextProject()">Next project <img src="img/portfolio/arrow_forward.svg"></button>
     </div>
 </section>

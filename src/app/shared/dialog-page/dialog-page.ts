@@ -13,7 +13,14 @@ import { TranslocoPipe } from '@jsverse/transloco';
   encapsulation: ViewEncapsulation.None
 })
 export class DialogPage {
-  data = inject<{ type: string }>(MAT_DIALOG_DATA);
+  data = inject<{ type: string, projects: string[], currentIndex: number }>(MAT_DIALOG_DATA);
   dialogType = this.data.type;
+  projects = this.data.projects;
+  currentIndex = this.data.currentIndex;
+
+  nextProject() {
+    this.currentIndex = (this.currentIndex + 1) % this.projects.length;
+    this.dialogType = this.projects[this.currentIndex];
+  }
 
 }

@@ -12,11 +12,15 @@ import { DialogPage } from '../shared/dialog-page/dialog-page';
 })
 export class PortfolioPage {
   readonly dialog = inject(MatDialog);
+  projects: ('pokedex' | 'join' | 'pollo')[] = ['pokedex', 'join', 'pollo'];
 
   openDialog(type: 'pokedex' | 'join'| 'pollo'){
+    const currentIndex = this.projects.indexOf(type);
     this.dialog.open(DialogPage, {
       data: {
-        type: type
+        type: type,
+        projects: this.projects,
+        currentIndex: currentIndex
       },
       width: '90vw',
       maxWidth: '1820px',

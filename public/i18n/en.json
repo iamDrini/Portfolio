@@ -42,10 +42,10 @@
             "number": "01",
             "title": "Pokedex",
             "question":"What is this project about?",
-            "text":"A website that fetches Pokémon data dynamically from an external API based on the number of Pokémon to display. The application presents key stats and categorizes Pokémon by type in a clear, structured way.",
+            "text":"A website that fetches Pokémon data dynamically from an external API based on the number of Pokémon to display.",
             "technologies":"<div><img src='img/skills/CSS.png'><span>CSS</span></div><div><img src='img/skills/HTML.png'><span>HTML</span></div><div><img src='img/skills/JavaScript.png'><span>JavaScript</span></div><div><img src='img/skills/Rest-Api.png'><span>REST-API</span></div>",
-            "gitHubLink": "<a href='https://github.com/iamDrini/Pokedex'>Github<img src='img/arrow_outward.svg'></a>",
-            "liveTestLink":"<a href='https://valdrin-murselji.developerakademie.net/Pokedex/index.html'>Live Test<img src='img/arrow_outward.svg'></a>",
+            "gitHubLink": "<a href='https://github.com/iamDrini/Pokedex' target='_blank'>Github <img src='img/arrow_outward.svg'></a>",
+            "liveTestLink":"<a href='https://valdrin-murselji.developerakademie.net/Pokedex/index.html' target='_blank'>Live Test <img src='img/arrow_outward.svg'></a>",
             "imgSrc":"img/portfolio/pokedex_screen.png"
         },
         "join": {
@@ -54,8 +54,8 @@
             "question":"What is this project about?",
             "text":"Task manager inspired by the Kanban System. Create and organize tasks using drag and drop functions, assign users and categories.",
             "technologies":"<div><img src='img/skills/CSS.png'><span>CSS</span></div><div><img src='img/skills/HTML.png'><span>HTML</span></div><div><img src='img/skills/JavaScript.png'><span>JavaScript</span></div><div><img src='img/skills/Firebase.png'><span>Firebase</span></div>",
-            "gitHubLink": "<a href='https://github.com/iamDrini/Join'>Github<img src='img/arrow_outward.svg'></a>",
-            "liveTestLink":"<a href='https://valdrin-murselji.developerakademie.net/Join/index.html'>Live Test<img src='img/arrow_outward.svg'></a>",
+            "gitHubLink": "<a href='https://github.com/iamDrini/Join' target='_blank'>Github <img src='img/arrow_outward.svg'></a>",
+            "liveTestLink":"<a href='https://valdrin-murselji.developerakademie.net/Join/index.html' target='_blank'>Live Test <img src='img/arrow_outward.svg'></a>",
             "imgSrc":"img/portfolio/join_screen.svg"
         },
         "pollo": {
@@ -63,9 +63,9 @@
             "title": "El-Pollo-Loco",
             "question":"What is this project about?",
             "text":"Jump, run and throw game based on object-oriented approach. Help Pepe to find coins and tabasco salsa to fight against the endboss.",
-            "technologies":"<div><img src='img/CSS.png'><span>CSS</span></div><div><img src='img/HTML.png'><span>HTML</span></div><div><img src='img/JavaScript.png'><span>JavaScript</span></div>",
-            "gitHubLink": "<a href='https://github.com/iamDrini/El-Pollo-Loco'>Github<img src='img/arrow_outward.svg'></a>",
-            "liveTestLink":"<a href='https://valdrin-murselji.developerakademie.net/El-Pollo-Loco/index.html'>Live Test<img src='img/arrow_outward.svg'></a>",
+            "technologies":"<div><img src='img/skills/CSS.png'><span>CSS</span></div><div><img src='img/skills/HTML.png'><span>HTML</span></div><div><img src='img/skills/JavaScript.png'><span>JavaScript</span></div>",
+            "gitHubLink": "<a href='https://github.com/iamDrini/El-Pollo-Loco' target='_blank'>Github <img src='img/arrow_outward.svg'></a>",
+            "liveTestLink":"<a href='https://valdrin-murselji.developerakademie.net/El-Pollo-Loco/index.html' target='_blank'>Live Test <img src='img/arrow_outward.svg'></a>",
             "imgSrc":"img/portfolio/pollo_screen.svg"
         }
     }

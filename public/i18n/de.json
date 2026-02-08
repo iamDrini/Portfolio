@@ -42,10 +42,10 @@
             "number": "01",
             "title": "Pokedex",
             "question":"Worum geht es in diesem Projekt?",
-            "text":"Eine Website, die Pokémon-Daten dynamisch über eine externe API abruft – abhängig von der Anzahl der anzuzeigenden Pokémon. Die Anwendung stellt zentrale Statistiken dar und kategorisiert die Pokémon übersichtlich nach ihren Typen.",
+            "text":"Eine Website, die Pokémon-Daten dynamisch über eine externe API abruft. Die Anwendung stellt zentrale Statistiken dar und kategorisiert die Pokémon übersichtlich nach ihren Typen.",
             "technologies":"<div><img src='img/skills/CSS.png'><span>CSS</span></div><div><img src='img/skills/HTML.png'><span>HTML</span></div><div><img src='img/skills/JavaScript.png'><span>JavaScript</span></div><div><img src='img/skills/Rest-Api.png'><span>REST-API</span></div>",
-            "gitHubLink": "<a href='https://github.com/iamDrini/Pokedex'>Github<img src='img/arrow_outward.svg'></a>",
-            "liveTestLink":"<a href='https://valdrin-murselji.developerakademie.net/Pokedex/index.html'>Live Test<img src='img/arrow_outward.svg'></a>",
+            "gitHubLink": "<a href='https://github.com/iamDrini/Pokedex' target='_blank'>Github <img src='img/arrow_outward.svg'></a>",
+            "liveTestLink":"<a href='https://valdrin-murselji.developerakademie.net/Pokedex/index.html' target='_blank'>Live Test <img src='img/arrow_outward.svg'></a>",
             "imgSrc":"img/portfolio/pokedex_screen.png"
         },
         "join": {
@@ -54,8 +54,8 @@
             "question":"Worum geht es in diesem Projekt?",
             "text":"Ein Aufgabenmanager, der vom Kanban-System inspiriert ist. Aufgaben können per Drag-and-drop erstellt und organisiert sowie Benutzern und Kategorien zugewiesen werden.",
             "technologies":"<div><img src='img/skills/CSS.png'><span>CSS</span></div><div><img src='img/skills/HTML.png'><span>HTML</span></div><div><img src='img/skills/JavaScript.png'><span>JavaScript</span></div><div><img src='img/skills/Firebase.png'><span>Firebase</span></div>",
-            "gitHubLink": "<a href='https://github.com/iamDrini/Join'>Github<img src='img/arrow_outward.svg'></a>",
-            "liveTestLink":"<a href='https://valdrin-murselji.developerakademie.net/Join/index.html'>Live Test<img src='img/arrow_outward.svg'></a>",
+            "gitHubLink": "<a href='https://github.com/iamDrini/Join' target='_blank'>Github <img src='img/arrow_outward.svg'></a>",
+            "liveTestLink":"<a href='https://valdrin-murselji.developerakademie.net/Join/index.html' target='_blank'>Live Test <img src='img/arrow_outward.svg'></a>",
             "imgSrc":"img/portfolio/join_screen.svg"
         },
         "pollo": {
@@ -63,9 +63,9 @@
             "title": "El-Pollo-Loco",
             "question":"Worum geht es in diesem Projekt?",
             "text":"Ein Jump-and-Run-Spiel auf Basis eines objektorientierten Ansatzes. Hilf Pepe dabei, Münzen und Tabasco-Soße zu sammeln, um gegen den Endgegner zu kämpfen.",
-            "technologies":"<div><img src='img/CSS.png'><span>CSS</span></div><div><img src='img/HTML.png'><span>HTML</span></div><div><img src='img/JavaScript.png'><span>JavaScript</span></div>",
-            "gitHubLink": "<a href='https://github.com/iamDrini/El-Pollo-Loco'>Github<img src='img/arrow_outward.svg'></a>",
-            "liveTestLink":"<a href='https://valdrin-murselji.developerakademie.net/El-Pollo-Loco/index.html'>Live Test<img src='img/arrow_outward.svg'></a>",
+            "technologies":"<div><img src='img/skills/CSS.png'><span>CSS</span></div><div><img src='img/skills/HTML.png'><span>HTML</span></div><div><img src='img/skills/JavaScript.png'><span>JavaScript</span></div>",
+            "gitHubLink": "<a href='https://github.com/iamDrini/El-Pollo-Loco' target='_blank'>Github <img src='img/arrow_outward.svg'></a>",
+            "liveTestLink":"<a href='https://valdrin-murselji.developerakademie.net/El-Pollo-Loco/index.html' target='_blank'>Live Test <img src='img/arrow_outward.svg'></a>",
             "imgSrc":"img/portfolio/pollo_screen.svg"
         }
     }
