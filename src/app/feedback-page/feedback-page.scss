@@ -3,6 +3,31 @@ section {
     flex-direction: column;
     align-items: center;
     gap: 48px;
+    position: relative;
+    
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 25%;
+        height: 100%;
+        background: linear-gradient(to right, rgba(30, 30, 30, 0.9), transparent);
+        z-index: 2;
+        pointer-events: none;
+    }
+    
+    &::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 25%;
+        height: 100%;
+        background: linear-gradient(to left, rgba(30, 30, 30, 0.9), transparent);
+        z-index: 2;
+        pointer-events: none;
+    }
 
     span {
         font-family: 'Fira Code';
@@ -12,49 +37,120 @@ section {
     }
 
     .feedback-wrapper {
+        position: relative;
         overflow-x: hidden;
         display: flex;
-        gap: 40px;
+        gap: 80px;
+        width: 100%;
+        height: 270px;
 
         .feedback-container {
-            width: 358px;
-            height: 248px;
+            width: 400px;
+            height: 186px;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
             padding: 40px;
             border: 1px solid #3DCFB6;
             border-radius: 32px;
+            position: absolute;
+            transition: all 0.5s ease-in-out;
 
             .feedback-text {
                 overflow-wrap: break-word;
+                font-size: 18px;
             }
 
             .autor-container {
-                display:flex;
+                display: flex;
                 align-items: center;
                 gap: 8px;
+
                 .white-line {
                     width: 100%;
                     background-color: white;
                     height: 1px;
                 }
-                .feedback-name{
-                    font-size:16px;
+
+                .feedback-name {
+                    font-size: 16px;
                     font-family: 'Karla';
                     font-weight: 400;
-                    color: white;
+                    color: rgba(255, 255, 255, 0.8);
                     white-space: nowrap;
                 }
             }
         }
 
+        // .fade{
+        //     opacity: 0.05;
+        //     z-index: 0;
+        //     transform: scale(0.7);
+        // }
+
+        .previous {
+            background-color: #3DCFB61A;
+            left: 0;
+            transform: translateX(-20%) scale(0.9);
+            z-index: 0;
+        }
+
+        .current {
+            background-color: #3DCFB64D;
+            transform: scale(1);
+            left: 50%;
+            right: 50%;
+            transform: translateX(-50%);
+            z-index: 1;
+        }
+
+        .next {
+            background-color: #3DCFB61A;
+            left: 100%;
+            transform: translateX(-70%) scale(0.9);
+            z-index: 0;
+        }
+
         .highlight {
             background-color: rgba(61, 207, 182, 0.3);
+            width: 500px;
+            height: 250px;
         }
 
         .shadow {
             background-color: rgba(61, 207, 182, 0.1);
+        }
+    }
+    .button-container{
+        display:flex;
+        align-items: center;
+        gap: 12px;
+        span{
+            color: #FFFFFF;
+        }
+        .colored{
+            color: #3DCFB6 !important;
+        }
+        div{
+            margin: 0 8px;
+            padding: 4px;
+            display: flex;
+            border-radius: 50%;
+            height: 25px;
+            width: 25px;
+            transition: all 0.3s ease;
+            &:hover{
+                cursor: pointer;
+                background-color: rgba(61, 207, 182, 0.3);
+            }
+        }
+        
+        .backBtn:hover {
+            transform: translateX(-5px);
+        }
+        
+        .nextBtn:hover {
+            transform: translateX(5px);
         }
     }
 }
