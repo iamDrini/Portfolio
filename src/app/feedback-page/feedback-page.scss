@@ -1,0 +1,60 @@
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+
+    span {
+        font-family: 'Fira Code';
+        font-weight: 700;
+        font-size: 32px;
+        color: #3DCFB6
+    }
+
+    .feedback-wrapper {
+        overflow-x: hidden;
+        display: flex;
+        gap: 40px;
+
+        .feedback-container {
+            width: 358px;
+            height: 248px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 40px;
+            border: 1px solid #3DCFB6;
+            border-radius: 32px;
+
+            .feedback-text {
+                overflow-wrap: break-word;
+            }
+
+            .autor-container {
+                display:flex;
+                align-items: center;
+                gap: 8px;
+                .white-line {
+                    width: 100%;
+                    background-color: white;
+                    height: 1px;
+                }
+                .feedback-name{
+                    font-size:16px;
+                    font-family: 'Karla';
+                    font-weight: 400;
+                    color: white;
+                    white-space: nowrap;
+                }
+            }
+        }
+
+        .highlight {
+            background-color: rgba(61, 207, 182, 0.3);
+        }
+
+        .shadow {
+            background-color: rgba(61, 207, 182, 0.1);
+        }
+    }
+}

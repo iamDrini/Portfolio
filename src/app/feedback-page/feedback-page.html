@@ -1,3 +1,13 @@
 <section>
-    
+    <span>{{ 'feedback.title' | transloco}}</span>
+    <div class="feedback-wrapper">
+        @for (item of feedback[currentLang]; track $index) {
+        <div class="feedback-container">
+            <p class="feedback-text">{{ item.text }}</p>
+            <div class="autor-container">
+                <div class="white-line"></div><span class="feedback-name">{{ item.name }}</span>
+            </div>
+        </div>
+        }
+    </div>
 </section>
