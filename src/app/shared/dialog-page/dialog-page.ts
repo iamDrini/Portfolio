@@ -6,7 +6,7 @@ import { TranslocoPipe } from '@jsverse/transloco';
 
 @Component({
   selector: 'app-dialog-page',
-  imports: [MatDialogTitle, MatDialogContent, MatDialogActions, MatDialogClose, MatButtonModule,TranslocoPipe],
+  imports: [ MatDialogClose, MatButtonModule,TranslocoPipe],
   templateUrl: './dialog-page.html',
   styleUrl: './dialog-page.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
