@@ -25,17 +25,17 @@
         "title": "Skillset",
         "text": "Ich habe praktische Erfahrung mit zentralen Frontend-Technologien wie HTML, CSS, JavaScript und TypeScript sowie mit Frameworks und Tools wie Angular, Material Design und Firebase. Zudem arbeite ich regelmäßig mit Git, REST-APIs und nach agilen Prinzipien wie Scrum. Ich bin offen für neue Technologien und lege großen Wert darauf, meine Fähigkeiten kontinuierlich weiterzuentwickeln, da ständiges Lernen in der sich schnell verändernden Welt der Webentwicklung unerlässlich ist.",
         "question": {
-            "part1": "Du brauchst",
+            "part1": "Brauchen Sie",
             "part2": " eine weitere Fähigkeit?"
         },
-        "textContact": "Melde dich gerne bei mir. Ich freue mich darauf, mein bisheriges Wissen weiter auszubauen.",
-        "button": "Lass uns sprechen",
+        "textContact": "Melden Sie sich gerne bei mir. Ich freue mich darauf, mein bisheriges Wissen weiter auszubauen.",
+        "button": "Lassen Sie uns sprechen",
         "mindset": "Ich interessiere mich besonders dafür, React zu lernen und meine Python-Skills auszubauen, mit dem klaren Ziel, in naher Zukunft ein Full-Stack-Entwickler zu werden."
     },
     "portfolio": {
         "topic": "Portfolio",
         "title": "Ausgewählte Projekte",
-        "text": "Entdecke hier eine Auswahl meiner Arbeiten – interagiere mit <br>den Projekten, um meine Fähigkeiten in Aktion zu sehen."
+        "text": "Entdecken Sie hier eine Auswahl meiner Arbeiten – interagieren Sie mit <br>den Projekten, um meine Fähigkeiten in Aktion zu sehen."
     },
     "dialogs": {
         "pokedex": {
@@ -71,5 +71,23 @@
     },
     "feedback": {
         "title": "Was meine Kollegen über mich sagen"
+    },
+    "contact": {
+        "topic": "Kontakt",
+        "title": "Lassen Sie uns zusammenarbeiten",
+        "slogan": "Haben Sie ein Problem zu lösen?",
+        "text": "Ich bin an einer Frontend-Rolle interessiert, in der ich das Team aktiv unterstützen und durch sauberen, gut strukturierten Code echten Mehrwert schaffen kann. Meine hohe Lernfähigkeit und mein Ehrgeiz spiegeln sich in den vielen eigenständig umgesetzten Projekten sowie in der Vielfalt der Technologien wider, mit denen ich gearbeitet habe. Gleichzeitig suche ich ein Unternehmen, das meine fachliche Weiterentwicklung unterstützt, damit ich mein Kompetenzspektrum kontinuierlich erweitern und dem Team perspektivisch auch als Full-Stack-Entwickler dienen kann.",
+        "question": "Suchen Sie einen Frontend-Entwickler?",
+        "catch": "Lassen Sie uns sprechen!"
+    },
+    "form": {
+        "questionName": "Wie heißen Sie?",
+        "namePH": "Geben Sie hier Ihren Namen ein",
+        "questionMail": "Wie lautet Ihre E-Mail-Adresse?",
+        "mailPH": "ihre.email@beispiel.de",
+        "questionHow": "Wie kann ich Ihnen helfen?",
+        "howPH": "Hallo Valdrin, ich interessiere mich für...",
+        "check": "Ich habe die <a>Datenschutzerklärung</a> gelesen und stimme der Verarbeitung meiner Daten wie beschrieben zu.",
+        "buttonText": "Sagen Sie Hallo :)"
     }
 }

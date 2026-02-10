@@ -5,10 +5,17 @@ import { AboutmePage } from '../aboutme-page/aboutme-page';
 import { SkillsPage } from '../skills-page/skills-page';
 import { PortfolioPage } from '../portfolio-page/portfolio-page';
 import { FeedbackPage } from '../feedback-page/feedback-page';
+import { Contact } from "../contact/contact";
 
 @Component({
   selector: 'app-main-page',
-  imports: [LandingPage, Header,AboutmePage, SkillsPage, PortfolioPage, FeedbackPage],
+  imports: [LandingPage, 
+    Header, 
+    AboutmePage, 
+    SkillsPage, 
+    PortfolioPage, 
+    FeedbackPage, 
+    Contact],
   templateUrl: './main-page.html',
   styleUrl: './main-page.scss',
 })

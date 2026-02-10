@@ -71,5 +71,23 @@
     },
     "feedback": {
         "title": "What my colleagues say about me"
+    },
+    "contact": {
+        "topic":"Contact me",
+        "title":"Let's work together",
+        "slogan":"Got a problem to solve?",
+        "text":"I am interested in a frontend role where I can actively support the team and add real value through clean, well-structured code. My strong ability to learn and my ambition are reflected in the many independently developed projects and the variety of technologies I have worked with. At the same time, I am looking for a company that supports my professional growth, so I can continuously expand my skill set and later contribute to the team as a full-stack developer as well.",
+        "question": "Need a Frontend developer?",
+        "catch":"Let's talk!"
+    },
+    "form":{
+        "questionName":"What's your name?",
+        "namePH":"Your name goes here",
+        "questionMail":"What's your email?",
+        "mailPH":"youremail@email.com",
+        "questionHow":"How can I help you?",
+        "howPH":"Hello Valdrin, I am interested in...",
+        "check":"I've read the <a>privacy policy</a> and agree to the processing of my data as outlined.",
+        "buttonText":"Say Hello :)"
     }
 }
