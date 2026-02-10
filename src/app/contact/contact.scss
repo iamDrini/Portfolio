@@ -39,6 +39,13 @@ section {
                 border: 1px solid white;
                 border-radius: 100px;
             }
+            .textarea-container{
+                width: 100%;
+            }
+            .textarea-validation{
+                color: red;
+                font-size: 12px;
+            }
         }
     }
 
@@ -68,6 +75,7 @@ section {
         textarea {
             background: transparent;
             margin-top: 16px;
+            resize:vertical;
 
             &:focus {
                 outline: none;
