@@ -91,5 +91,10 @@
         "check1":"gelesen und stimme der Verarbeitung meiner Daten wie beschrieben zu.",
         "checkLink":"Datenschutzerklärung",
         "buttonText": "Sagen Sie Hallo :)"
+    },
+    "footer":{
+        "job": "Web-Entwickler",
+        "location":"Memmingen Deutschland",
+        "legalNotice":"Impressum"
     }
 }

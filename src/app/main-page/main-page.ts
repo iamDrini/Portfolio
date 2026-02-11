@@ -6,16 +6,18 @@ import { SkillsPage } from '../skills-page/skills-page';
 import { PortfolioPage } from '../portfolio-page/portfolio-page';
 import { FeedbackPage } from '../feedback-page/feedback-page';
 import { Contact } from "../contact/contact";
+import { Footer } from "../shared/footer/footer";
 
 @Component({
   selector: 'app-main-page',
-  imports: [LandingPage, 
-    Header, 
-    AboutmePage, 
-    SkillsPage, 
-    PortfolioPage, 
-    FeedbackPage, 
-    Contact],
+  imports: [LandingPage,
+    Header,
+    AboutmePage,
+    SkillsPage,
+    PortfolioPage,
+    FeedbackPage,
+    Contact,
+    Footer],
   templateUrl: './main-page.html',
   styleUrl: './main-page.scss',
 })
