@@ -4,12 +4,12 @@ import { FEEDBACK_DATA } from './feedback-data';
 import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'app-feedback-page',
+  selector: 'app-feedback',
   imports: [TranslocoPipe, CommonModule],
-  templateUrl: './feedback-page.html',
-  styleUrl: './feedback-page.scss',
+  templateUrl: './feedback.html',
+  styleUrl: './feedback.scss',
 })
-export class FeedbackPage {
+export class Feedback {
   private translocoService = inject(TranslocoService);
   
   feedback = FEEDBACK_DATA;

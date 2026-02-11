@@ -2,11 +2,11 @@ import { Component } from '@angular/core';
 import { TranslocoPipe } from '@jsverse/transloco';
 
 @Component({
-  selector: 'app-aboutme-page',
+  selector: 'app-skills',
   imports: [TranslocoPipe],
-  templateUrl: './aboutme-page.html',
-  styleUrl: './aboutme-page.scss',
+  templateUrl: './skills.html',
+  styleUrl: './skills.scss',
 })
-export class AboutmePage {
+export class Skills {
 
 }

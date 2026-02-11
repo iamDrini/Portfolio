@@ -2,21 +2,21 @@ import { NgStyle } from '@angular/common';
 import { Component, inject } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 import { TranslocoPipe } from '@jsverse/transloco';
-import { DialogPage } from '../shared/dialog-page/dialog-page';
+import { Dialog } from '../shared/dialog/dialog';
 
 @Component({
-  selector: 'app-portfolio-page',
+  selector: 'app-portfolio',
   imports: [TranslocoPipe, NgStyle],
-  templateUrl: './portfolio-page.html',
-  styleUrl: './portfolio-page.scss',
+  templateUrl: './portfolio.html',
+  styleUrl: './portfolio.scss',
 })
-export class PortfolioPage {
+export class Portfolio {
   readonly dialog = inject(MatDialog);
   projects: ('pokedex' | 'join' | 'pollo')[] = ['pokedex', 'join', 'pollo'];
 
   openDialog(type: 'pokedex' | 'join'| 'pollo'){
     const currentIndex = this.projects.indexOf(type);
-    this.dialog.open(DialogPage, {
+    this.dialog.open(Dialog, {
       data: {
         type: type,
         projects: this.projects,
