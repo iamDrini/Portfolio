@@ -1,28 +1,61 @@
-section{
-    display:flex;
+section {
+    display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 64px 96px;
     background-color: #1c1c1c;
-    span{
-        color:#3DCFB6;
+
+    span {
+        color: #3DCFB6;
         font-family: 'Fira Code';
         font-weight: 400;
         font-size: 18px;
     }
 }
 
-.left-content{
-    display:flex;
-    flex-direction: column;
-    gap: 8px;
-    img{
-        width:300px;
-    }
-}
-
-.footer-links{
+.left-content {
     display: flex;
     flex-direction: column;
     gap: 8px;
+
+    span {
+        font-family: 'Karla';
+        font-weight: 400;
+        font-size: 16px;
+        color: white;
+    }
+
+    img {
+        width: 200px;
+    }
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+    div {
+        &:hover {
+            a {
+                color: #3DCFB6;
+            }
+
+            .hover-point {
+                opacity: 1;
+            }
+        }
+    }
+
+    a {
+        font-family: 'Karla';
+        font-weight: 400;
+        font-size: 16px;
+        cursor: pointer;
+    }
+}
+
+.hover-point {
+    opacity: 0;
+    padding-right: 4px;
 }

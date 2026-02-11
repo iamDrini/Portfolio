@@ -2,10 +2,11 @@ import { HttpClient } from '@angular/common/http';
 import { Component, inject } from '@angular/core';
 import { FormsModule, NgForm } from '@angular/forms';
 import { TranslocoPipe } from '@jsverse/transloco';
+import { RouterLink } from "@angular/router";
 
 @Component({
   selector: 'app-contact',
-  imports: [TranslocoPipe, FormsModule],
+  imports: [TranslocoPipe, FormsModule, RouterLink],
   templateUrl: './contact.html',
   styleUrl: './contact.scss',
 })
@@ -18,6 +19,8 @@ export class Contact {
     email:"",
     message:""
   }
+
+  privacyAccepted = false;
   
   mailTest = true;
 

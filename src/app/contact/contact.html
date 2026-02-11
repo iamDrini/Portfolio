@@ -10,31 +10,38 @@
         <form (ngSubmit)="onSubmit(contactForm)" #contactForm="ngForm">
             <div class="form-field set-border">
                 <label for="name">{{'form.questionName' | transloco}}</label>
-                <input [(ngModel)]="contactData.name" type="text" id="name" name="name"
+                <input #name="ngModel" [(ngModel)]="contactData.name" type="text" id="name" name="name"
                     placeholder="{{'form.namePH' | transloco}}" required>
+                @if(!name.valid && name.touched){
+                <span class="textarea-validation">Please enter your name</span>
+                }
             </div>
             <div class="form-field">
                 <label for="email">{{'form.questionMail' | transloco}}</label>
-                <input [(ngModel)]="contactData.email" type="email" id="email" name="email"
+                <input #email="ngModel" [(ngModel)]="contactData.email" type="email" id="email" name="email"
                     placeholder="{{'form.mailPH' | transloco}}" required
                     pattern="[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}">
+                @if(!email.valid && email.touched){
+                <span class="textarea-validation">Please enter a valid email address</span>
+                }
             </div>
             <div class="textarea-container">
                 <div class="form-field set-border">
                     <label for="message">{{'form.questionHow' | transloco}}</label>
                     <textarea #message="ngModel" minlength="4" [(ngModel)]="contactData.message" id="message"
-                        name="message" placeholder="{{'form.howPH' | transloco}}"></textarea>
+                        name="message" placeholder="{{'form.howPH' | transloco}}" required></textarea>
+                    @if(!message.valid && message.touched){
+                    <span class="textarea-validation">Please enter a message</span>
+                    }
                 </div>
-                @if(!message.valid && message.touched){
-                <span class="textarea-validation">Please enter a message</span>
-                }
             </div>
             <div class="checkbox-container">
-                <input type="checkbox" id="checkbox" name="checkbox">
-                <label class="checkbox-label" for="checkbox">{{'form.check' | transloco}}<a>{{'form.checkLink' |
+                <input #checkbox="ngModel" [(ngModel)]="privacyAccepted" type="checkbox" id="checkbox"
+                    name="checkbox" required>
+                <label class="checkbox-label" for="checkbox">{{'form.check' | transloco}}<a [routerLink]="'/privacy-policy'">{{'form.checkLink' |
                         transloco}} </a>{{'form.check1' | transloco}} </label>
             </div>
-            <input type="submit" value="{{'form.buttonText' | transloco}}">
+            <input type="submit" value="{{'form.buttonText' | transloco}}" [disabled]="!contactForm.valid">
         </form>
     </div>
 </section>

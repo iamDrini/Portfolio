@@ -38,6 +38,21 @@ section {
                 background-color: transparent;
                 border: 1px solid white;
                 border-radius: 100px;
+                cursor: pointer;
+                transition: all 0.3s ease;
+
+                &:hover:not(:disabled) {
+                    background-color: #3DCFB6;
+                    border-color: #3DCFB6;
+                    color: black;
+                }
+
+                &:disabled {
+                    opacity: 0.4;
+                    cursor: not-allowed;
+                    border-color: #666;
+                    color: #666;
+                }
             }
             .textarea-container{
                 width: 100%;
