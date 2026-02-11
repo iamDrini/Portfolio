@@ -1,0 +1,45 @@
+app-legal-notice {
+    section {
+        background-image: url("/img/background2_right.png");
+        background-position: center;
+        background-size: cover;
+        background-color: #1c1c1c;
+        width: 100%;
+        min-height: 100vh;
+        padding: 150px 90px;
+        box-sizing: border-box;
+
+        h1 {
+            font-family: 'Fira Code';
+            font-weight: 700;
+            font-size: 64px;
+            color: #3DCFB6;
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            font-family: 'Fira Code';
+            font-weight: 500;
+            font-size: 32px;
+            color: #3DCFB6;
+            margin-top: 32px;
+            margin-bottom: 16px;
+        }
+
+        p {
+            font-family: 'Karla';
+            font-size: 16px;
+            color: white;
+            margin-bottom: 8px;
+        }
+
+        a {
+            color: #3DCFB6;
+            text-decoration: none;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
