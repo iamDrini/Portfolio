@@ -5,9 +5,9 @@
             <span class="option de">DE</span>
             <div class="slider"></div>
         </div>
-        <a>{{'header.about'| transloco}}</a>
-        <a>{{'header.skills' | transloco}}</a>
-        <a>{{'header.projects' | transloco}}</a>
+        <a [routerLink]="['/']" fragment="about">{{'header.about'| transloco}}</a>
+        <a [routerLink]="['/']" fragment="skills">{{'header.skills' | transloco}}</a>
+        <a [routerLink]="['/']" fragment="projects">{{'header.projects' | transloco}}</a>
     </div>
     <div class="right-nav">
         <img src="img/logo_transparent.png">

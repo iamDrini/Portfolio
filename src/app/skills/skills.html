@@ -7,7 +7,7 @@
             <h4><span style="color: #FFFFFF">{{ 'skills.question.part1' | transloco }}</span>
                 <span>{{ 'skills.question.part2' | transloco }}</span></h4>
             <p>{{'skills.textContact' | transloco }}</p>
-            <a class="marquee-btn"><span class="marquee-text">{{'skills.button' | transloco }}</span></a>
+            <a [routerLink]="['/']" fragment="contact"  class="marquee-btn"><span class="marquee-text">{{'skills.button' | transloco }}</span></a>
         </div>
     </div>
     <div class="technologies-container">

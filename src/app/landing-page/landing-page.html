@@ -1,16 +1,16 @@
 <section>
     <div class="left-content">
-        <a><img src="img/arrow-down.svg"></a>
+        <a [routerLink]="['/']" fragment="about"><img src="img/arrow-down.svg"></a>
         <div class="line-container"></div>
     </div>
     <div class="main-content">
         <h2>{{'landing.frontend' | transloco }}</h2>
         <h1>Valdrin Murselji</h1>
         <div>
-            <a href="" class="marquee-btn">
+            <a [routerLink]="['/']" fragment="projects" class="marquee-btn">
                 <span class="marquee-text">{{'landing.check' | transloco}}</span>
             </a>
-            <a href="" class="marquee-btn">
+            <a [routerLink]="['/']" fragment="contact" class="marquee-btn">
                 <span class="marquee-text">{{'landing.contact' | transloco}}</span>
             </a>
         </div>
@@ -48,9 +48,9 @@
         </div>
     </div>
     <div class="right-content">
-        <a class="div-email">valdrin.murselji@outlook.de</a>
+        <a href="mailto:valdrin.murselji@outlook.de" class="div-email">valdrin.murselji@outlook.de</a>
         <div class="image-wrapper">
-            <a><img src="img/github.png">
+            <a href="https://github.com/iamDrini" target="_blank"><img src="img/github.png">
                 <div class="hover-img">
                     <img src="img/github_hover.png">
                     <img src="img/radio_button_unchecked.png">
@@ -58,7 +58,7 @@
             </a>
         </div>
         <div class="image-wrapper">
-            <a>
+            <a href="https://www.linkedin.com/in/valdrin-murselji/" target="_blank">
                 <img src="img/linkedIn.png">
                 <div class="hover-img">
                     <img src="img/linkedIn_hover.png">

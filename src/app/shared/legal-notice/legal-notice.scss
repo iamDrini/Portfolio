@@ -1,11 +1,15 @@
 app-legal-notice {
-    section {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+    .legal-container{
+        flex: 1;
         background-image: url("/img/background2_right.png");
         background-position: center;
         background-size: cover;
         background-color: #1c1c1c;
         width: 100%;
-        min-height: 100vh;
         padding: 150px 90px;
         box-sizing: border-box;
 
