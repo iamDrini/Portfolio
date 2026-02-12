@@ -1,4 +1,3 @@
-
 // Include theming for Angular Material with `mat.theme()`.
 // This Sass mixin will define CSS variables that are used for styling Angular Material
 // components according to the Material 3 design spec.
@@ -8,14 +7,12 @@
 
 html {
   height: 100%;
-  @include mat.theme((
-    color: (
-      primary: mat.$cyan-palette,
-      tertiary: mat.$orange-palette,
-    ),
-    typography: Roboto,
-    density: 0,
-  ));
+  @include mat.theme((color: (primary: mat.$cyan-palette,
+        tertiary: mat.$orange-palette,
+      ),
+      typography: Roboto,
+      density: 0,
+    ));
 }
 
 body {
@@ -34,6 +31,7 @@ body {
   margin: 0;
   height: 100%;
 }
+
 /* You can add global styles to this file, and also import other style files */
 * {
   margin: 0;
@@ -44,7 +42,7 @@ body {
 }
 
 html {
-  background-color: #1a1a1a; /* Ihre gewünschte Hintergrundfarbe */
+  background-color: #1a1a1a;
 }
 
 body {
@@ -60,7 +58,7 @@ button {
 
 a {
   cursor: pointer;
-  text-decoration:none;
+  text-decoration: none;
 }
 
 h1 {
@@ -76,7 +74,8 @@ h2 {
   font-size: 40px;
   color: #d9d9d9;
 }
-p{
+
+p {
   text-align: justify;
 }
 
@@ -249,4 +248,51 @@ h4 {
     /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
     url('/fonts/karla-v33-latin-800.ttf') format('truetype');
   /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+@media(max-width: 1200px) {
+  h1 {
+    font-size: 96px;
+  }
+}
+
+@media(max-width:1000px) {
+  h1 {
+    font-size: 64px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+}
+
+@media(max-width: 640px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+}
+
+@media(max-width:430px) {
+  h1 {
+    font-size: 32px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+}
+
+@media(max-width: 360px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
+
 }

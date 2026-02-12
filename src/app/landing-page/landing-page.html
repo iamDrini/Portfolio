@@ -6,7 +6,7 @@
     <div class="main-content">
         <h2>{{'landing.frontend' | transloco }}</h2>
         <h1>Valdrin Murselji</h1>
-        <div>
+        <div class="links">
             <a [routerLink]="['/']" fragment="projects" class="marquee-btn">
                 <span class="marquee-text">{{'landing.check' | transloco}}</span>
             </a>
@@ -48,7 +48,15 @@
         </div>
     </div>
     <div class="right-content">
-        <a href="mailto:valdrin.murselji@outlook.de" class="div-email">valdrin.murselji@outlook.de</a>
+        <a href="mailto:valdrin.murselji@outlook.de" class="div-email hide-mobile">valdrin.murselji@outlook.de</a>
+        <div class="image-wrapper hide-desktop">
+            <a href="mailto:valdrin.murselji@outlook.de" target="_blank"><img src="img/mail.svg">
+                <div class="hover-img">
+                    <img src="img/mail_hover.svg">
+                    <img src="img/radio_button_unchecked.png">
+                </div>
+            </a>
+        </div>
         <div class="image-wrapper">
             <a href="https://github.com/iamDrini" target="_blank"><img src="img/github.png">
                 <div class="hover-img">
