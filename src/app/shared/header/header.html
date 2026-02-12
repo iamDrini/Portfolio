@@ -1,4 +1,4 @@
-<nav>
+<nav class="hide-desktop">
     <div class="left-nav">
         <div class="lang-toggle" [attr.data-lang]="currentLang" (click)="switchLanguage(currentLang === 'de' ? 'en' : 'de')">
             <span class="option en">EN</span>
@@ -11,5 +11,25 @@
     </div>
     <div class="right-nav">
         <img src="img/logo_transparent.png">
+    </div>
+</nav>
+<nav class="mobile-nav hide-mobile">
+    <div class="left-content">
+        <img class="logo-groß" src="img/logo_transparent.png">
+        <img class="logo-klein" src="img/logo_klein.png">
+    </div>
+    <button class="burger-btn" (click)="toggleMenu()">
+        <img class="menu-white" src="img/menu.svg">
+        <img class="menu-green" src="img/menu_green.svg">
+    </button>
+    <div class="burger-menu" [class.show]="menuOpen">
+        <a [routerLink]="['/']" fragment="about">{{'header.about'| transloco}}</a>
+        <a [routerLink]="['/']" fragment="skills">{{'header.skills' | transloco}}</a>
+        <a [routerLink]="['/']" fragment="projects">{{'header.projects' | transloco}}</a>
+        <div class="lang-toggle" [attr.data-lang]="currentLang" (click)="switchLanguage(currentLang === 'de' ? 'en' : 'de')">
+            <span class="option en">EN</span>
+            <span class="option de">DE</span>
+            <div class="slider"></div>
+        </div>
     </div>
 </nav>

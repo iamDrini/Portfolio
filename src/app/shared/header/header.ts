@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, HostListener, ElementRef } from '@angular/core';
 import { TranslocoPipe, TranslocoService } from '@jsverse/transloco';
 import { inject } from '@angular/core';
 import { RouterLink } from '@angular/router';
@@ -11,7 +11,9 @@ import { RouterLink } from '@angular/router';
 })
 export class Header implements OnInit {
   private translocoService = inject(TranslocoService);
+  private elementRef = inject(ElementRef);
   currentLang = this.translocoService.getActiveLang();
+  menuOpen = false;
 
   ngOnInit() {
     const savedLang = localStorage.getItem('language');
@@ -25,6 +27,18 @@ export class Header implements OnInit {
     this.translocoService.setActiveLang(lang);
     localStorage.setItem('language', lang);
     this.currentLang = lang;
+  }
+
+  toggleMenu() {
+    this.menuOpen = !this.menuOpen;
+  }
+
+  @HostListener('document:click', ['$event'])
+  onClickOutside(event: MouseEvent) {
+    const clickedInside = this.elementRef.nativeElement.contains(event.target);
+    if (!clickedInside && this.menuOpen) {
+      this.menuOpen = false;
+    }
   }
 
 }
