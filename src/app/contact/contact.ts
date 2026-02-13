@@ -23,7 +23,7 @@ export class Contact {
 
   privacyAccepted = false;
   
-  mailTest = true;
+  mailTest = false;
   sendAnimationActive = false;
 
   post = {
