@@ -1,26 +1,29 @@
 <section>
-    <div class="left-content">
-        <img src="img/logo_transparent.png">
-        <span>{{ 'footer.job' | transloco}}</span>
-        <span>{{ 'footer.location' | transloco}}</span>
+    <div class="section">
+        <div class="left-content">
+            <img src="img/logo_transparent.png">
+            <span>{{ 'footer.job' | transloco}}</span>
+            <span>{{ 'footer.location' | transloco}}</span>
+        </div>
+        <span class="span-desktop">&copy; Valdrin Murselji 2026</span>
+        <div class="footer-links">
+            <div>
+                <img class="hover-point" src="img/radio_button_unchecked.png">
+                <a href="https://github.com/iamDrini" target="_blank">Github</a>
+            </div>
+            <div>
+                <img class="hover-point" src="img/radio_button_unchecked.png">
+                <a href="https://www.linkedin.com/in/valdrin-murselji/" target="_blank">LinkedIn</a>
+            </div>
+            <div>
+                <img class="hover-point" src="img/radio_button_unchecked.png">
+                <a href="mailto:valdrin.murselji@outlook.de">Email</a>
+            </div>
+            <div>
+                <img class="hover-point" src="img/radio_button_unchecked.png">
+                <a [routerLink]="'/legal-notice'">{{ 'footer.legalNotice' | transloco}}</a>
+            </div>
+        </div>
     </div>
-    <span>&copy; Valdrin Murselji 2026</span>
-    <div class="footer-links">
-        <div>
-            <img class="hover-point" src="img/radio_button_unchecked.png">
-            <a href="https://github.com/iamDrini" target="_blank">Github</a>
-        </div>
-        <div>
-            <img class="hover-point" src="img/radio_button_unchecked.png">
-            <a  href="https://www.linkedin.com/in/valdrin-murselji/" target="_blank">LinkedIn</a>
-        </div>
-        <div>
-            <img class="hover-point" src="img/radio_button_unchecked.png">
-            <a href="mailto:valdrin.murselji@outlook.de">Email</a>
-        </div>
-        <div>
-            <img class="hover-point" src="img/radio_button_unchecked.png">
-            <a [routerLink]="'/legal-notice'">{{ 'footer.legalNotice' | transloco}}</a>
-        </div>
-    </div>
+    <span class="span-mobile">&copy; Valdrin Murselji 2026</span>
 </section>
