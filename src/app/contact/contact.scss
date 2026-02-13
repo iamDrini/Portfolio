@@ -156,3 +156,22 @@ section {
         box-sizing: border-box;
     }
 }
+@media(max-width: 1270px) {
+    section {
+        padding: 72px 56px;
+    }
+}
+@media(max-width:1030px){
+    section{
+        flex-direction: column;
+        .description-container{
+            width: 100%;
+        }
+    }
+}
+
+@media(max-width: 670px) {
+    section {
+        padding: 16px;
+    }
+}
