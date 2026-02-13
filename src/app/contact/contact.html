@@ -8,6 +8,11 @@
     </div>
     <div class="form-container">
         <form (ngSubmit)="onSubmit(contactForm)" #contactForm="ngForm">
+            <div class="honeypot" aria-hidden="true">
+                <label for="company">Company</label>
+                <input id="company" name="company" type="text" tabindex="-1" autocomplete="off"
+                    [(ngModel)]="contactData.honeypot">
+            </div>
             <div class="form-field set-border">
                 <label for="name">{{'form.questionName' | transloco}}</label>
                 <input #name="ngModel" [(ngModel)]="contactData.name" type="text" id="name" name="name"

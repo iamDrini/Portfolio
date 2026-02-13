@@ -33,6 +33,15 @@ section {
             flex-direction: column;
             align-items: center;
 
+            .honeypot {
+                position: absolute;
+                left: -10000px;
+                top: auto;
+                width: 1px;
+                height: 1px;
+                overflow: hidden;
+            }
+
             .submit-btn {
                 padding: 12px 24px;
                 background-color: transparent;
