@@ -49,7 +49,7 @@ app-legal-notice {
 }
 
 @media(max-width: 1270px) {
-    section {
+    .legal-container {
         padding: 72px 56px;
         p{
             text-align:left;
@@ -66,7 +66,7 @@ app-legal-notice {
     }
 }
 @media(max-width: 570px){
-    section{
+    .legal-container{
         padding: 160px 16px!important;
     }
 }
