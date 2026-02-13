@@ -14,6 +14,7 @@ section {
     .project-container {
         display: flex;
         justify-content: space-between;
+        align-items: center;
         padding: 40px 32px;
         max-width: 70%;
         border-top: 1px solid #3DCFB6;
@@ -75,4 +76,52 @@ section {
 
 .color-green {
     color: #3DCFB6;
+}
+
+@media(max-width: 1300px){
+    .left-content{
+        .project-container{
+            .screenshot-project{
+                width:194px;
+                height:128px;
+            }
+            .screenshot-bg{
+                width:194px;
+                height:128px;
+            }
+        }
+    }
+}
+@media(max-width: 1270px) {
+    section {
+        padding: 72px 56px;
+    }
+}
+@media(max-width: 950px){
+    .left-content{
+        .project-container{
+            max-width:unset;
+            .screenshot-project{
+                display:none;
+            }
+            .screenshot-bg{
+                display:none;
+            }
+        }
+    }
+}
+@media(max-width:670px) {
+    section {
+        padding: 16px;
+    }
+}
+
+@media(max-width: 620px){
+    .left-content{
+        .project-container{
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 40px 0;
+        }
+    }
 }

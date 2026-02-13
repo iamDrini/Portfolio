@@ -1,4 +1,5 @@
 <section>
+    <button class="next-project-mobile" matButton (click)="nextProject()">Next project <img src="img/portfolio/arrow_forward.svg"></button>
     <div class="left-content">
         <h1>{{ 'dialogs.' + dialogType + '.number' | transloco }}</h1>
         <h3>{{ 'dialogs.' + dialogType + '.title' | transloco }}</h3>
@@ -13,6 +14,6 @@
     <div class="right-content">
         <button matButton mat-dialog-close><img src="img/portfolio/Close_Button.svg"></button>
         <img class="project-screen" [src]="('dialogs.' + dialogType + '.imgSrc') | transloco">
-        <button matButton (click)="nextProject()">Next project <img src="img/portfolio/arrow_forward.svg"></button>
+        <button class="next-project" matButton (click)="nextProject()">Next project <img src="img/portfolio/arrow_forward.svg"></button>
     </div>
 </section>

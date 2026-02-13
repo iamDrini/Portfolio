@@ -1,4 +1,3 @@
-
 .custom-dialog {
     section {
         background-image: url('/img/firstBackground.png');
@@ -7,19 +6,33 @@
         display: flex;
         justify-content: space-between;
         padding: 55px 80px;
-        gap:88px;
+        gap: 88px;
+        .next-project-mobile{
+                display: none;
+                align-items: center;
+                gap: 8px;
+                white-space: nowrap;
+
+                img {
+                    display: inline-block;
+                    vertical-align: middle;
+                }
+        }
 
         .left-content {
             width: 50%;
-            h1{
+
+            h1 {
                 color: #3DCFB6;
             }
-            h3{
-                color:#FFFFFF;
+
+            h3 {
+                color: #FFFFFF;
                 margin-bottom: 40px;
             }
-            .question{
-                color:#3DCFB6;
+
+            .question {
+                color: #3DCFB6;
                 font-family: 'Fira Code';
                 font-size: 24px;
                 font-weight: 700;
@@ -28,6 +41,7 @@
 
             .technologies {
                 display: flex;
+                flex-wrap: wrap;
                 gap: 16px;
                 margin-top: 32px;
                 margin-bottom: 40px;
@@ -38,10 +52,12 @@
                     gap: 8px;
                 }
             }
-            .link-container{
-                display:flex;
-                gap:20px;
-                div{
+
+            .link-container {
+                display: flex;
+                gap: 20px;
+
+                div {
                     padding: 13px 24px;
                     border: 1px solid #FFFFFF;
                     border-radius: 100px;
@@ -54,14 +70,14 @@
             flex-direction: column;
             align-items: flex-end;
             justify-content: space-between;
-            width:50%;
-            
+            width: 50%;
+
             button {
                 display: inline-flex;
                 align-items: center;
                 gap: 8px;
                 white-space: nowrap;
-                
+
                 img {
                     display: inline-block;
                     vertical-align: middle;
@@ -72,6 +88,93 @@
                 height: auto;
                 border-radius: 30px;
                 width: 100%;
+            }
+        }
+    }
+}
+
+@media(max-width:1250px) {
+    section {
+        padding: 32px !important;
+
+        .left-content {
+            .technologies {
+                div {
+                    img {
+                        width: 40px;
+                    }
+
+                    span {
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 800px) {
+    section {
+        flex-direction: column-reverse;
+        //gap: 16px !important;
+        align-items: center;
+        position: relative;
+        .next-project-mobile{
+            display:inline-flex !important;
+            margin-bottom: 10px;
+        }
+
+        .right-content {
+            width: 100%!important;
+
+            .next-project {
+                display:none !important;
+            }
+        }
+
+        .left-content {
+            width: unset !important;
+        }
+    }
+}
+
+@media(max-width: 625px) {
+    section {
+        height:80vh;
+        justify-content: flex-end !important;
+        .left-content {
+            .link-container{
+                justify-content: center;
+            }
+            h3 {
+                margin-bottom: 20px !important;
+            }
+            
+        }
+    }
+}
+
+@media(max-width:575px){
+    section{
+        gap: 12px !important;
+        padding: 16px !important;
+        max-height: 600px;
+        overflow-y: auto;
+        overflow-x: hidden;
+        .left-content{
+            padding-bottom: 100px;
+        }
+    }
+}
+
+@media(max-width: 400px) {
+    .link-container{
+        div{
+            padding: 6px 12px !important;
+            a{
+                img{
+                    display: none;
+                }
             }
         }
     }
