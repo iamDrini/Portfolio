@@ -6,7 +6,7 @@ section {
     gap: 48px;
     position: relative;
     background-color: #1c1c1c;
-    
+
     &::before {
         content: '';
         position: absolute;
@@ -18,7 +18,7 @@ section {
         z-index: 2;
         pointer-events: none;
     }
-    
+
     &::after {
         content: '';
         position: absolute;
@@ -123,17 +123,21 @@ section {
             background-color: rgba(61, 207, 182, 0.1);
         }
     }
-    .button-container{
-        display:flex;
+
+    .button-container {
+        display: flex;
         align-items: center;
         gap: 12px;
-        span{
+
+        span {
             color: #FFFFFF;
         }
-        .colored{
+
+        .colored {
             color: #3DCFB6 !important;
         }
-        div{
+
+        div {
             margin: 0 8px;
             padding: 4px;
             display: flex;
@@ -141,18 +145,82 @@ section {
             height: 25px;
             width: 25px;
             transition: all 0.3s ease;
-            &:hover{
+
+            &:hover {
                 cursor: pointer;
                 background-color: rgba(61, 207, 182, 0.3);
             }
         }
-        
+
         .backBtn:hover {
             transform: translateX(-5px);
         }
-        
+
         .nextBtn:hover {
             transform: translateX(5px);
+        }
+    }
+}
+
+@media(max-width: 1300px) {
+    section {
+        .feedback-wrapper {
+            .next {
+                transform: translateX(-50%) scale(0.9);
+            }
+
+            .previous {
+                transform: translateX(-50%) scale(0.9);
+            }
+        }
+    }
+}
+
+@media(max-width: 1000px) {
+    section {
+        .feedback-wrapper {
+            .next {
+                transform: translateX(-20%) scale(0.9);
+            }
+
+            .previous {
+                transform: translateX(-78%) scale(0.9);
+            }
+        }
+    }
+}
+@media(max-width: 690px) {
+    section {
+        .title{
+            text-align: center;
+            padding: 0 48px;
+        }
+        .feedback-wrapper {
+            height: 300px;
+            .feedback-container{
+                padding: 20px;
+                width: 250px;
+                height:250px;
+            }
+            .next {
+                transform: translateX(-10%) scale(0.9);
+            }
+
+            .previous {
+                transform: translateX(-90%) scale(0.9);
+            }
+        }
+    }
+}
+
+@media(max-width: 450px){
+    section{
+        .feedback-wrapper{
+            height: 320px;
+            .feedback-container{
+                width: 220px;
+                height: 260px;
+            }
         }
     }
 }
