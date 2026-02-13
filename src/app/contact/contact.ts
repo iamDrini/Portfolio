@@ -22,10 +22,10 @@ export class Contact {
 
   privacyAccepted = false;
   
-  mailTest = true;
+  mailTest = false;
 
   post = {
-    endPoint: 'https://deineDomain.de/sendMail.php',
+    endPoint: 'https://valdrin-murselji.com/sendMail.php',
     body: (payload: any) => JSON.stringify(payload),
     options: {
       headers: {
@@ -36,6 +36,7 @@ export class Contact {
   };
 
   onSubmit(ngForm: NgForm) {
+    
     if (ngForm.submitted && ngForm.form.valid && !this.mailTest) {
       this.http.post(this.post.endPoint, this.post.body(this.contactData))
         .subscribe({
