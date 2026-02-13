@@ -1,6 +1,6 @@
 <section>
     <span class="title">{{ 'feedback.title' | transloco}}</span>
-    <div class="feedback-wrapper">
+    <div (swipeRight)="prevSlide()" (swipeLeft)="nextSlide()" class="feedback-wrapper">
         @for (item of feedback[currentLang]; track $index; let i = $index) {
         <div class="feedback-container"
              [ngClass]="{
