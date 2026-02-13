@@ -1,11 +1,12 @@
 app-privacy-policy {
-    .privacy-policy-container{
+    .privacy-policy-container {
         background-color: #1c1c1c;
         width: 100%;
         min-height: 100vh;
         padding: 150px 90px;
         box-sizing: border-box;
-        .index-link{
+
+        .index-link {
             text-decoration: none;
         }
 
@@ -45,7 +46,7 @@ app-privacy-policy {
         ul {
             margin-left: 20px;
             margin-bottom: 16px;
-            
+
             li {
                 font-family: 'Karla';
                 font-size: 16px;
@@ -57,7 +58,8 @@ app-privacy-policy {
         a {
             color: #3DCFB6;
             text-decoration: none;
-            &:hover{
+
+            &:hover {
                 cursor: unset;
             }
         }
@@ -67,13 +69,16 @@ app-privacy-policy {
         }
     }
 }
+
 @media(max-width: 1270px) {
     .privacy-policy-container {
         padding: 72px 56px;
-        p{
-            text-align:left;
+
+        p {
+            text-align: left;
         }
-        a{
+
+        a {
             overflow-wrap: break-word;
         }
     }
@@ -84,8 +89,9 @@ app-privacy-policy {
         flex-direction: column;
     }
 }
-@media(max-width: 570px){
-    .privacy-policy-container{
-        padding: 160px 16px!important;
+
+@media(max-width: 570px) {
+    .privacy-policy-container {
+        padding: 160px 16px !important;
     }
 }

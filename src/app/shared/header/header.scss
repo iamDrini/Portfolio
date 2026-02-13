@@ -31,8 +31,6 @@ nav {
   }
 }
 
-
-
 .lang-toggle {
   position: relative;
   width: 90px;
@@ -136,7 +134,7 @@ nav {
 
   .burger-menu.show {
     right: 30px;
-    display:flex;
+    display: flex;
   }
 }
 
@@ -170,11 +168,13 @@ nav {
 @media(max-width: 570px) {
   .mobile-nav {
     padding: 32px 16px;
-    .burger-menu{
-    top: 100px;
-  }
-  .burger-menu.show{
-    right:16px;
-  }
+
+    .burger-menu {
+      top: 100px;
+    }
+
+    .burger-menu.show {
+      right: 16px;
+    }
   }
 }

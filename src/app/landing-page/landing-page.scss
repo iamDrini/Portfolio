@@ -237,8 +237,7 @@ section {
     .links {
         
             flex-direction: column;
-            gap: 32px;
-        
+            gap: 32px; 
     }
 
     .marquee-btn {
@@ -261,6 +260,7 @@ section {
         }
     }
 }
+
 @media(max-width: 450px){
     .marquee-btn{
         padding: 6px 16px;

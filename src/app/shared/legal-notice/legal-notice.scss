@@ -3,7 +3,7 @@ app-legal-notice {
     flex-direction: column;
     min-height: 100vh;
 
-    .legal-container{
+    .legal-container {
         flex: 1;
         background-image: url("/portfolio/img/background2_right.png");
         background-position: center;
@@ -51,10 +51,12 @@ app-legal-notice {
 @media(max-width: 1270px) {
     .legal-container {
         padding: 72px 56px;
-        p{
-            text-align:left;
+
+        p {
+            text-align: left;
         }
-        a{
+
+        a {
             overflow-wrap: break-word;
         }
     }
@@ -65,8 +67,9 @@ app-legal-notice {
         flex-direction: column;
     }
 }
-@media(max-width: 570px){
-    .legal-container{
-        padding: 160px 16px!important;
+
+@media(max-width: 570px) {
+    .legal-container {
+        padding: 160px 16px !important;
     }
 }

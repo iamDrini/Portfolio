@@ -92,11 +92,13 @@ section {
         }
     }
 }
+
 @media(max-width: 1270px) {
     section {
         padding: 72px 56px;
     }
 }
+
 @media(max-width: 950px){
     .left-content{
         .project-container{
@@ -110,6 +112,7 @@ section {
         }
     }
 }
+
 @media(max-width:670px) {
     section {
         padding: 16px;
