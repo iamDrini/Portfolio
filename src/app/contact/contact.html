@@ -13,7 +13,7 @@
                 <input #name="ngModel" [(ngModel)]="contactData.name" type="text" id="name" name="name"
                     placeholder="{{'form.namePH' | transloco}}" required>
                 @if(!name.valid && name.touched){
-                <span class="textarea-validation">Please enter your name</span>
+                <span class="textarea-validation">*Please enter your name</span>
                 }
             </div>
             <div class="form-field">
@@ -22,7 +22,7 @@
                     placeholder="{{'form.mailPH' | transloco}}" required
                     pattern="[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}">
                 @if(!email.valid && email.touched){
-                <span class="textarea-validation">Please enter a valid email address</span>
+                <span class="textarea-validation">*Please enter a valid email address</span>
                 }
             </div>
             <div class="textarea-container">
@@ -31,7 +31,7 @@
                     <textarea #message="ngModel" minlength="4" [(ngModel)]="contactData.message" id="message"
                         name="message" placeholder="{{'form.howPH' | transloco}}" required></textarea>
                     @if(!message.valid && message.touched){
-                    <span class="textarea-validation">Please enter a message</span>
+                    <span class="textarea-validation">*Please enter a message</span>
                     }
                 </div>
             </div>
@@ -41,7 +41,10 @@
                 <label class="checkbox-label" for="checkbox">{{'form.check' | transloco}}<a [routerLink]="'/privacy-policy'">{{'form.checkLink' |
                         transloco}} </a>{{'form.check1' | transloco}} </label>
             </div>
-            <input type="submit" value="{{'form.buttonText' | transloco}}" [disabled]="!contactForm.valid">
+            <button type="submit" class="submit-btn" [class.send-animation]="sendAnimationActive" [disabled]="!contactForm.valid">
+                <span class="btn-text">{{'form.buttonText' | transloco}}</span>
+                <img class="btn-arrow" src="img/arrow_forward_white.svg" alt="">
+            </button>
         </form>
     </div>
 </section>

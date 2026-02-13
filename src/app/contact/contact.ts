@@ -22,7 +22,8 @@ export class Contact {
 
   privacyAccepted = false;
   
-  mailTest = false;
+  mailTest = true;
+  sendAnimationActive = false;
 
   post = {
     endPoint: 'https://valdrin-murselji.com/sendMail.php',
@@ -47,11 +48,19 @@ export class Contact {
           error: (error) => {
             console.error(error);
           },
-          complete: () => console.info('send post complete'),
+          complete: () => this.triggerSendAnimation(),
         });
     } else if (ngForm.submitted && ngForm.form.valid && this.mailTest) {
 
       ngForm.resetForm();
+      this.triggerSendAnimation();
     }
+  }
+
+  private triggerSendAnimation() {
+    this.sendAnimationActive = true;
+    setTimeout(() => {
+      this.sendAnimationActive = false;
+    }, 600);
   }
 }
