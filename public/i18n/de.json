@@ -45,27 +45,27 @@
             "text": "Eine Website, die Pokémon-Daten dynamisch über eine externe API abruft. Die Anwendung stellt zentrale Statistiken dar und kategorisiert die Pokémon übersichtlich nach ihren Typen.",
             "technologies": "<div><img src='img/skills/CSS.png'><span>CSS</span></div><div><img src='img/skills/HTML.png'><span>HTML</span></div><div><img src='img/skills/JavaScript.png'><span>JavaScript</span></div><div><img src='img/skills/Rest-Api.png'><span>REST-API</span></div>",
             "gitHubLink": "<a href='https://github.com/iamDrini/Pokedex' target='_blank'>Github <img src='img/arrow_outward.svg'></a>",
-            "liveTestLink": "<a href='https://valdrin-murselji.developerakademie.net/Pokedex/index.html' target='_blank'>Live Test <img src='img/arrow_outward.svg'></a>",
+            "liveTestLink": "<a href='https://valdrin-murselji.com/Pokedex/' target='_blank'>Live Test <img src='img/arrow_outward.svg'></a>",
             "imgSrc": "img/portfolio/pokedex_screen.png"
         },
         "join": {
             "number": "02",
             "title": "Join",
             "question": "Worum geht es in diesem Projekt?",
-            "text": "Ein Aufgabenmanager, der vom Kanban-System inspiriert ist. Aufgaben können per Drag-and-drop erstellt und organisiert sowie Benutzern und Kategorien zugewiesen werden.",
+            "text": "Join ist ein gemeinsames Teamprojekt, bei dem wir einen Aufgabenmanager auf Basis eines Kanban-Boards entwickelt haben. Benutzer und Kontakte werden dabei über eine Realtime-Datenbank in Firestore verwaltet. Die Zusammenarbeit im Team erfolgte parallel über Git und GitHub, wodurch wir unseren Code strukturiert versionieren, Änderungen nachverfolgen und effizient zusammenführen konnten.",
             "technologies": "<div><img src='img/skills/CSS.png'><span>CSS</span></div><div><img src='img/skills/HTML.png'><span>HTML</span></div><div><img src='img/skills/JavaScript.png'><span>JavaScript</span></div><div><img src='img/skills/Firebase.png'><span>Firebase</span></div>",
             "gitHubLink": "<a href='https://github.com/iamDrini/Join' target='_blank'>Github <img src='img/arrow_outward.svg'></a>",
-            "liveTestLink": "<a href='https://valdrin-murselji.developerakademie.net/Join/index.html' target='_blank'>Live Test <img src='img/arrow_outward.svg'></a>",
+            "liveTestLink": "<a href='https://valdrin-murselji.com/Join/' target='_blank'>Live Test <img src='img/arrow_outward.svg'></a>",
             "imgSrc": "img/portfolio/join_screen.svg"
         },
         "pollo": {
             "number": "03",
             "title": "El-Pollo-Loco",
             "question": "Worum geht es in diesem Projekt?",
-            "text": "Ein Jump-and-Run-Spiel auf Basis eines objektorientierten Ansatzes. Hilf Pepe dabei, Münzen und Tabasco-Soße zu sammeln, um gegen den Endgegner zu kämpfen.",
+            "text": "Ein Jump-and-Run-Spiel welches ich mithilfe der objektorientierten Programmierung umsetzen konnte. Hilf Pepe dabei, Münzen und Tabasco-Soße zu sammeln, um gegen den Endgegner und seine Handlanger zu kämpfen.",
             "technologies": "<div><img src='img/skills/CSS.png'><span>CSS</span></div><div><img src='img/skills/HTML.png'><span>HTML</span></div><div><img src='img/skills/JavaScript.png'><span>JavaScript</span></div>",
             "gitHubLink": "<a href='https://github.com/iamDrini/El-Pollo-Loco' target='_blank'>Github <img src='img/arrow_outward.svg'></a>",
-            "liveTestLink": "<a href='https://valdrin-murselji.developerakademie.net/El-Pollo-Loco/index.html' target='_blank'>Live Test <img src='img/arrow_outward.svg'></a>",
+            "liveTestLink": "<a href='https://valdrin-murselji.com/El-Pollo-Loco/' target='_blank'>Live Test <img src='img/arrow_outward.svg'></a>",
             "imgSrc": "img/portfolio/pollo_screen.svg"
         }
     },
