@@ -1,101 +1,122 @@
-.custom-dialog {
-    section {
-        background-image: url('/img/firstBackground.png');
-        background-position: center;
-        background-size: cover;
-        display: flex;
-        justify-content: space-between;
-        padding: 55px 80px;
-        gap: 88px;
-        box-sizing: border-box;
-        .next-project-mobile{
-                display: none;
-                align-items: center;
-                gap: 8px;
-                white-space: nowrap;
+.cdk-overlay-pane .mat-mdc-dialog-surface {
+    background: url('/img/firstBackground.png');
+    background-position: center;
+    background-size: cover;
+}
 
-                img {
-                    display: inline-block;
-                    vertical-align: middle;
-                }
+.dialog {
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    padding: 55px 80px;
+    gap: 88px;
+    box-sizing: border-box;
+    min-height: 100%;
+
+    .next-project-mobile {
+        display: none;
+        align-items: center;
+        gap: 8px;
+        white-space: nowrap;
+
+        img {
+            display: inline-block;
+            vertical-align: middle;
+        }
+    }
+
+    .left-content {
+        width: 50%;
+
+        h1 {
+            color: #3DCFB6;
         }
 
-        .left-content {
-            width: 50%;
+        h3 {
+            color: #FFFFFF;
+            margin-bottom: 40px;
+        }
 
-            h1 {
-                color: #3DCFB6;
-            }
+        .question {
+            color: #3DCFB6;
+            font-family: 'Fira Code';
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
 
-            h3 {
-                color: #FFFFFF;
-                margin-bottom: 40px;
-            }
+        .technologies {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 16px;
+            margin-top: 32px;
+            margin-bottom: 40px;
 
-            .question {
-                color: #3DCFB6;
-                font-family: 'Fira Code';
-                font-size: 24px;
-                font-weight: 700;
-                margin-bottom: 20px;
-            }
-
-            .technologies {
+            div {
                 display: flex;
-                flex-wrap: wrap;
-                gap: 16px;
-                margin-top: 32px;
-                margin-bottom: 40px;
+                align-items: center;
+                gap: 8px;
+            }
+        }
 
-                div {
-                    display: flex;
-                    align-items: center;
-                    gap: 8px;
+        .link-container {
+            display: flex;
+            gap: 20px;
+
+            div {
+                &:hover {
+                    transform: scale(1.1);
+                    transition: transform 150ms ease-in;
                 }
-            }
 
-            .link-container {
-                display: flex;
-                gap: 20px;
-
-                div {
+                a {
                     padding: 13px 24px;
                     border: 1px solid #FFFFFF;
                     border-radius: 100px;
+
+                    &:hover {
+                        border: 2px solid #3DCFB6;
+                    }
                 }
             }
         }
+    }
 
-        .right-content {
-            display: flex;
-            flex-direction: column;
-            align-items: flex-end;
-            justify-content: space-between;
-            width: 50%;
+    .right-content {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: space-between;
+        width: 50%;
 
-            button {
-                display: inline-flex;
-                align-items: center;
-                gap: 8px;
-                white-space: nowrap;
+        button {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            white-space: nowrap;
+            margin-top: 16px;
 
-                img {
-                    display: inline-block;
-                    vertical-align: middle;
-                }
+            &:hover {
+                transform: scale(1.1);
             }
 
-            .project-screen {
-                height: auto;
-                border-radius: 30px;
-                width: 100%;
+            img {
+                display: inline-block;
+                vertical-align: middle;
             }
+        }
+
+        .project-screen {
+            height: auto;
+            border-radius: 30px;
+            width: 100%;
         }
     }
 }
 
+
 @media(max-width:1250px) {
-    section {
+    .dialog {
         padding: 32px !important;
 
         .left-content {
@@ -115,21 +136,21 @@
 }
 
 @media(max-width: 800px) {
-    section {
+    .dialog {
         flex-direction: column-reverse;
-        //gap: 16px !important;
         align-items: center;
         position: relative;
-        .next-project-mobile{
-            display:inline-flex !important;
+
+        .next-project-mobile {
+            display: inline-flex !important;
             margin-bottom: 10px;
         }
 
         .right-content {
-            width: 100%!important;
+            width: 100% !important;
 
             .next-project {
-                display:none !important;
+                display: none !important;
             }
         }
 
@@ -140,40 +161,44 @@
 }
 
 @media(max-width: 625px) {
-    section {
-        height:80vh;
+    .dialog {
         justify-content: flex-end !important;
+
         .left-content {
-            .link-container{
+            .link-container {
                 justify-content: center;
             }
+
             h3 {
                 margin-bottom: 20px !important;
             }
-            
+
         }
     }
 }
 
-@media(max-width:575px){
-    section{
+@media(max-width:575px) {
+    .dialog {
         gap: 12px !important;
         padding: 16px !important;
         max-height: 600px;
-        overflow-y: auto;
-        overflow-x: hidden;
-        .left-content{
-            padding-bottom: 100px;
+
+        .left-content {
+            padding-bottom: 40px;
         }
     }
 }
 
 @media(max-width: 400px) {
-    .link-container{
-        div{
+    .link-container {
+        flex-direction: column;
+        align-items: center;
+        gap:32px;
+        div {
             padding: 6px 12px !important;
-            a{
-                img{
+
+            a {
+                img {
                     display: none;
                 }
             }

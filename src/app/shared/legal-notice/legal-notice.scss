@@ -1,14 +1,14 @@
-app-legal-notice {
+.ln-wrapper {
+    min-height: 100vh !important;
+    background-image: url("/img/background2_right.png");
+    background-position: center;
+    background-size: cover;
+    background-color: #1c1c1c;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    justify-content: space-between;
 
     .legal-container {
-        flex: 1;
-        background-image: url("/img/background2_right.png");
-        background-position: center;
-        background-size: cover;
-        background-color: #1c1c1c;
         width: 100%;
         padding: 150px 90px;
         box-sizing: border-box;

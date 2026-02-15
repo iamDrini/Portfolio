@@ -10,17 +10,17 @@
         <a [routerLink]="['/']" fragment="projects">{{'header.projects' | transloco}}</a>
     </div>
     <div class="right-nav">
-        <img src="img/logo_transparent.png">
+        <img src="/img/logo_transparent.png">
     </div>
 </nav>
 <nav class="mobile-nav hide-mobile">
     <div class="left-content">
-        <img class="logo-groß" src="img/logo_transparent.png">
-        <img class="logo-klein" src="img/logo_klein.png">
+        <img class="logo-groß" src="/img/logo_transparent.png">
+        <img class="logo-klein" src="/img/logo_klein.png">
     </div>
     <button class="burger-btn" (click)="toggleMenu()">
-        <img class="menu-white" src="img/menu.svg">
-        <img class="menu-green" src="img/menu_green.svg">
+        <img class="menu-white" src="/img/menu.svg">
+        <img class="menu-green" src="/img/menu_green.svg">
     </button>
     <div class="burger-menu" [class.show]="menuOpen">
         <a [routerLink]="['/']" (click)="toggleMenu()" fragment="about">{{'header.about'| transloco}}</a>

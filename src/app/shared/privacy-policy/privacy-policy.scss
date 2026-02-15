@@ -1,9 +1,8 @@
 app-privacy-policy {
-    overflow-x:hidden;
+    .wrapper{
+        background-color: #1c1c1c !important;
+    }
     .privacy-policy-container {
-        background-color: #1c1c1c;
-        width: 100%;
-        min-height: 100vh;
         padding: 150px 90px;
         box-sizing: border-box;
 

@@ -1,4 +1,4 @@
-<section>
+<div class="dialog">
     <button class="next-project-mobile" matButton (click)="nextProject()">Next project <img src="img/portfolio/arrow_forward.svg"></button>
     <div class="left-content">
         <h1>{{ 'dialogs.' + dialogType + '.number' | transloco }}</h1>
@@ -16,4 +16,4 @@
         <img class="project-screen" [src]="('dialogs.' + dialogType + '.imgSrc') | transloco">
         <button class="next-project" matButton (click)="nextProject()">Next project <img src="img/portfolio/arrow_forward.svg"></button>
     </div>
-</section>
+</div>
