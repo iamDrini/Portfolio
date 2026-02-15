@@ -93,6 +93,7 @@
         "buttonText": "Sagen Sie Hallo :)"
     },
     "footer":{
+        "scrollUp": "Zurück nach oben",
         "job": "Web-Entwickler",
         "location":"Memmingen Deutschland",
         "legalNotice":"Impressum"

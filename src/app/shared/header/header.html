@@ -23,9 +23,9 @@
         <img class="menu-green" src="img/menu_green.svg">
     </button>
     <div class="burger-menu" [class.show]="menuOpen">
-        <a [routerLink]="['/']" fragment="about">{{'header.about'| transloco}}</a>
-        <a [routerLink]="['/']" fragment="skills">{{'header.skills' | transloco}}</a>
-        <a [routerLink]="['/']" fragment="projects">{{'header.projects' | transloco}}</a>
+        <a [routerLink]="['/']" (click)="toggleMenu()" fragment="about">{{'header.about'| transloco}}</a>
+        <a [routerLink]="['/']" (click)="toggleMenu()" fragment="skills">{{'header.skills' | transloco}}</a>
+        <a [routerLink]="['/']" (click)="toggleMenu()" fragment="projects">{{'header.projects' | transloco}}</a>
         <div class="lang-toggle" [attr.data-lang]="currentLang" (click)="switchLanguage(currentLang === 'de' ? 'en' : 'de')">
             <span class="option en">EN</span>
             <span class="option de">DE</span>

@@ -1,31 +1,32 @@
-<section>
-    <span class="title">{{ 'feedback.title' | transloco}}</span>
-    <div (swipeRight)="prevSlide()" (swipeLeft)="nextSlide()" class="feedback-wrapper">
-        @for (item of feedback[currentLang]; track $index; let i = $index) {
-        <div class="feedback-container"
-             [ngClass]="{
+<div class="wrapper">
+    <section data-aos="zoom-in-up">
+        <span class="title">{{ 'feedback.title' | transloco}}</span>
+        <div (swipeRight)="prevSlide()" (swipeLeft)="nextSlide()" class="feedback-wrapper">
+            @for (item of feedback[currentLang]; track $index; let i = $index) {
+            <div class="feedback-container" [ngClass]="{
                  'previous': i === getPrevIndex(),
                  'current': i === currentFeedback,
                  'next': i === getNextIndex(),
                  'fade': (prevFading && i === getPrevIndex() && !nextFading) || 
                          (nextFading && i === getNextIndex() && !prevFading)
              }">
-            <p class="feedback-text">{{ item.text }}</p>
-            <div class="autor-container">
-                <div class="white-line"></div><span class="feedback-name">{{ item.name }}</span>
+                <p class="feedback-text">{{ item.text }}</p>
+                <div class="autor-container">
+                    <div class="white-line"></div><span class="feedback-name">{{ item.name }}</span>
+                </div>
+            </div>
+            }
+        </div>
+        <div class="button-container">
+            <div class="backBtn" (click)="prevSlide()">
+                <img src="img/arrow_back.svg">
+            </div>
+            <span class="dot" [ngClass]="{'colored': currentFeedback == 0}">•</span>
+            <span class="dot" [ngClass]="{'colored': currentFeedback == 1}">•</span>
+            <span class="dot" [ngClass]="{'colored': currentFeedback == 2}">•</span>
+            <div class="nextBtn" (click)="nextSlide()">
+                <img src="img/arrow_forward_white.svg">
             </div>
         </div>
-        }
-    </div>
-    <div class="button-container">
-        <div class="backBtn" (click) = "prevSlide()">
-            <img src="img/arrow_back.svg">
-        </div>
-        <span class="dot" [ngClass]="{'colored': currentFeedback == 0}">•</span>
-        <span class="dot" [ngClass]="{'colored': currentFeedback == 1}">•</span>
-        <span class="dot" [ngClass]="{'colored': currentFeedback == 2}">•</span>
-        <div class="nextBtn" (click) = "nextSlide()">
-            <img src="img/arrow_forward_white.svg">
-        </div>
-    </div>
-</section>
+    </section>
+</div>

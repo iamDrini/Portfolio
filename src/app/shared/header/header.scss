@@ -9,6 +9,8 @@ nav {
   align-items: center;
   font-size: 20px;
   padding: 36px 96px;
+  max-width: 1920px;
+  box-sizing: border-box;
 
   .left-nav {
     display: flex;
@@ -20,6 +22,10 @@ nav {
       font-family: 'Fira Code';
       font-weight: 300;
       font-size: 20px;
+      &:hover{
+        color: #3DCFB6;
+        transform: scale(1.1);
+      }
     }
   }
 

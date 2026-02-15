@@ -1,54 +1,58 @@
-<section>
-    <div class="left-content">
-        <h4>{{'portfolio.topic' | transloco}}</h4>
-        <h3>{{'portfolio.title' | transloco}}</h3>
-        <span class="text-div" [innerHTML]="'portfolio.text' | transloco"></span>
-        <div class="project-container" (click)="openDialog('pokedex')">
-            <span class="project-name">Pokedex<img class = "arrow-out" src="img/arrow_outward.svg"></span>
-            <img class="screenshot-project" [ngStyle]="{'top.px': 0, 'border-radius.px': 16}" src="img/portfolio/pokedex_screen.png">
-            <img class="screenshot-bg" [ngStyle]="{'top.px': 10 }" src="img/portfolio/background_screenshot.svg">
-            <div>
-                <span>HTML</span>
-                <span class="color-green"> | </span>
-                <span>CSS</span>
-                <span class="color-green"> | </span>
-                <span>JavaScript</span>
-                <span class="color-green"> | </span>
-                <span>REST-API</span>
-                <span class="color-green"> | </span>
-                <span>Bootstrap</span>
+<div class="wrapper">
+    <section data-aos="fade-up">
+        <div class="left-content">
+            <h4>{{'portfolio.topic' | transloco}}</h4>
+            <h3>{{'portfolio.title' | transloco}}</h3>
+            <span class="text-div" [innerHTML]="'portfolio.text' | transloco"></span>
+            <div class="project-container" (click)="openDialog('pokedex')">
+                <span class="project-name">Pokedex<img class="arrow-out" src="img/arrow_outward.svg"></span>
+                <img class="screenshot-project" [ngStyle]="{'top.px': 0, 'border-radius.px': 16}"
+                    src="img/portfolio/pokedex_screen.png">
+                <img class="screenshot-bg" [ngStyle]="{'top.px': 10 }" src="img/portfolio/background_screenshot.svg">
+                <div>
+                    <span>HTML</span>
+                    <span class="color-green"> | </span>
+                    <span>CSS</span>
+                    <span class="color-green"> | </span>
+                    <span>JavaScript</span>
+                    <span class="color-green"> | </span>
+                    <span>REST-API</span>
+                    <span class="color-green"> | </span>
+                    <span>Bootstrap</span>
+                </div>
+            </div>
+            <div class="project-container" (click)="openDialog('join')">
+                <span class="project-name">Join<img class="arrow-out" img src="img/arrow_outward.svg"></span>
+                <img class="screenshot-project" [ngStyle]="{'top.%': -10 }" src="img/portfolio/join_screen.png">
+                <img class="screenshot-bg" [ngStyle]="{'top.%': 0 }" src="img/portfolio/background_screenshot.svg">
+                <div>
+                    <span>HTML</span>
+                    <span class="color-green"> | </span>
+                    <span>CSS</span>
+                    <span class="color-green"> | </span>
+                    <span>JavaScript</span>
+                    <span class="color-green"> | </span>
+                    <span>Firebase</span>
+                </div>
+            </div>
+            <div class="project-container" (click)="openDialog('pollo')">
+                <span class="project-name">El Pollo Loco<img class="arrow-out" img src="img/arrow_outward.svg"></span>
+                <img class="screenshot-project" [ngStyle]="{'bottom.px': 0 }" src="img/portfolio/pollo_screen.png">
+                <img class="screenshot-bg" [ngStyle]="{'bottom.px': -10 }"
+                    src="img/portfolio/background_screenshot.svg">
+                <div>
+                    <span>HTML</span>
+                    <span class="color-green"> | </span>
+                    <span>CSS</span>
+                    <span class="color-green"> | </span>
+                    <span>JavaScript</span>
+                    <span class="color-green"> | </span>
+                    <span>OOP</span>
+                </div>
             </div>
         </div>
-        <div class="project-container" (click)="openDialog('join')">
-            <span class="project-name">Join<img class = "arrow-out" img src="img/arrow_outward.svg"></span>
-            <img class="screenshot-project" [ngStyle]="{'top.%': -50 }" src="img/portfolio/join_screen.png">
-            <img class="screenshot-bg" [ngStyle]="{'top.%': -40 }" src="img/portfolio/background_screenshot.svg">
-            <div>
-                <span>HTML</span>
-                <span class="color-green"> | </span>
-                <span>CSS</span>
-                <span class="color-green"> | </span>
-                <span>JavaScript</span>
-                <span class="color-green"> | </span>
-                <span>Firebase</span>
-            </div>
-        </div>
-        <div class="project-container" (click)="openDialog('pollo')">
-            <span class="project-name">El Pollo Loco<img class = "arrow-out" img src="img/arrow_outward.svg"></span>
-            <img class="screenshot-project" [ngStyle]="{'bottom.px': 0 }" src="img/portfolio/pollo_screen.png">
-            <img class="screenshot-bg" [ngStyle]="{'bottom.px': -10 }" src="img/portfolio/background_screenshot.svg">
-            <div>
-                <span>HTML</span>
-                <span class="color-green"> | </span>
-                <span>CSS</span>
-                <span class="color-green"> | </span>
-                <span>JavaScript</span>
-                <span class="color-green"> | </span>
-                <span>OOP</span>
-            </div>
-        </div>
-    </div>
-    <div class="right-content">
+        <div class="right-content">
 
-    </div>
-</section>
+        </div>
+    </section>
+</div>

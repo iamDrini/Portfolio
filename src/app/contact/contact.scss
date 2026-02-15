@@ -2,9 +2,13 @@
     color: #3DCFB6;
 }
 
+.wrapper{
+    background-color: #1c1c1c;
+}
+
 section {
     padding: 96px;
-    background-color: #1c1c1c;
+    box-sizing: border-box;
     gap: 64px;
     display: flex;
 
@@ -17,6 +21,9 @@ section {
             font-size: 24px;
             color: #3DCFB6;
             padding-bottom: 16px;
+        }
+        h3{
+            font-size: 40px;
         }
 
         p {
@@ -101,7 +108,12 @@ section {
             }
             .textarea-validation{
                 color: red;
-                font-size: 12px;
+                font-size: 16px;
+                opacity: 0;
+                transition: opacity 0.2s ease;
+            }
+            .textarea-validation.is-visible{
+                opacity: 1;
             }
         }
     }

@@ -1,10 +1,16 @@
-section {
+.wrapper{
     background-color: #1c1d1c;
+    background-position: center;
+    background-size: cover;
+}
+
+section {
     display: flex;
     justify-content: space-between;
-    padding: 144px 112px;
+    padding: 144px 96px;
     align-items: center;
     gap: 40px;
+    box-sizing: border-box;
 
     .foto-container {
         position: relative;

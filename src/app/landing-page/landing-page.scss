@@ -1,13 +1,19 @@
-section {
-    height: 100vh;
-    display: flex;
-    justify-content: space-between;
-        background-image: url('/img/firstBackground.png');
+.wrapper{
+    background-image: url('/img/firstBackground.png');
     background-position: center;
     background-size: cover;
+}
+
+section {
+    height: 100vh;
+    max-width: 1920px;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
     position: relative;
     padding: 0 5vw;    
     overflow: hidden;
+    box-sizing: border-box;
 }
 
 .left-content {

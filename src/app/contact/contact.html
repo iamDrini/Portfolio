@@ -1,55 +1,54 @@
-<section>
-    <div class="description-container">
-        <h4>{{'contact.topic' | transloco}}</h4>
-        <h3>{{'contact.title' | transloco}}</h3>
-        <h5>{{'contact.slogan' | transloco }}</h5>
-        <p>{{'contact.text' | transloco }}</p>
-        <span>{{'contact.question' | transloco }} </span><span class="colored">{{'contact.catch' | transloco }}</span>
-    </div>
-    <div class="form-container">
-        <form (ngSubmit)="onSubmit(contactForm)" #contactForm="ngForm">
-            <div class="honeypot" aria-hidden="true">
-                <label for="company">Company</label>
-                <input id="company" name="company" type="text" tabindex="-1" autocomplete="off"
-                    [(ngModel)]="contactData.honeypot">
-            </div>
-            <div class="form-field set-border">
-                <label for="name">{{'form.questionName' | transloco}}</label>
-                <input #name="ngModel" [(ngModel)]="contactData.name" type="text" id="name" name="name"
-                    placeholder="{{'form.namePH' | transloco}}" required>
-                @if(!name.valid && name.touched){
-                <span class="textarea-validation">*Please enter your name</span>
-                }
-            </div>
-            <div class="form-field">
-                <label for="email">{{'form.questionMail' | transloco}}</label>
-                <input #email="ngModel" [(ngModel)]="contactData.email" type="email" id="email" name="email"
-                    placeholder="{{'form.mailPH' | transloco}}" required
-                    pattern="[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}">
-                @if(!email.valid && email.touched){
-                <span class="textarea-validation">*Please enter a valid email address</span>
-                }
-            </div>
-            <div class="textarea-container">
-                <div class="form-field set-border">
-                    <label for="message">{{'form.questionHow' | transloco}}</label>
-                    <textarea #message="ngModel" minlength="4" [(ngModel)]="contactData.message" id="message"
-                        name="message" placeholder="{{'form.howPH' | transloco}}" required></textarea>
-                    @if(!message.valid && message.touched){
-                    <span class="textarea-validation">*Please enter a message</span>
-                    }
+<div class="wrapper">
+    <section>
+        <div class="description-container" data-aos="zoom-in">
+            <h4>{{'contact.topic' | transloco}}</h4>
+            <h3>{{'contact.title' | transloco}}</h3>
+            <h5>{{'contact.slogan' | transloco }}</h5>
+            <p>{{'contact.text' | transloco }}</p>
+            <span>{{'contact.question' | transloco }} </span><span class="colored">{{'contact.catch' | transloco
+                }}</span>
+        </div>
+        <div class="form-container" data-aos="zoom-in">
+            <form (ngSubmit)="onSubmit(contactForm)" #contactForm="ngForm">
+                <div class="honeypot" aria-hidden="true">
+                    <label for="company">Company</label>
+                    <input id="company" name="company" type="text" tabindex="-1" autocomplete="off"
+                        [(ngModel)]="contactData.honeypot">
                 </div>
-            </div>
-            <div class="checkbox-container">
-                <input #checkbox="ngModel" [(ngModel)]="privacyAccepted" type="checkbox" id="checkbox"
-                    name="checkbox" required>
-                <label class="checkbox-label" for="checkbox">{{'form.check' | transloco}}<a [routerLink]="'/privacy-policy'">{{'form.checkLink' |
-                        transloco}} </a>{{'form.check1' | transloco}} </label>
-            </div>
-            <button type="submit" class="submit-btn" [class.send-animation]="sendAnimationActive" [disabled]="!contactForm.valid">
-                <span class="btn-text">{{'form.buttonText' | transloco}}</span>
-                <img class="btn-arrow" src="img/arrow_forward_white.svg" alt="">
-            </button>
-        </form>
-    </div>
-</section>
+                <div class="form-field set-border">
+                    <label for="name">{{'form.questionName' | transloco}}</label>
+                    <input #name="ngModel" [(ngModel)]="contactData.name" type="text" id="name" name="name"
+                        placeholder="{{'form.namePH' | transloco}}" required pattern=".*\S.*">
+                    <span class="textarea-validation" [class.is-visible]="!name.valid && name.touched">*Please enter your name</span>
+                </div>
+                <div class="form-field">
+                    <label for="email">{{'form.questionMail' | transloco}}</label>
+                    <input #email="ngModel" [(ngModel)]="contactData.email" type="email" id="email" name="email"
+                        placeholder="{{'form.mailPH' | transloco}}" required
+                        pattern="[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9\-]{3,}(?:\.[a-zA-Z0-9\-]+)*\.[a-zA-Z]{2,6}">
+                    <span class="textarea-validation" [class.is-visible]="!email.valid && email.touched">*Please enter a valid email address</span>
+                </div>
+                <div class="textarea-container">
+                    <div class="form-field set-border">
+                        <label for="message">{{'form.questionHow' | transloco}}</label>
+                        <textarea #message="ngModel" minlength="4" [(ngModel)]="contactData.message" id="message"
+                            name="message" placeholder="{{'form.howPH' | transloco}}" required pattern=".*\S.*"></textarea>
+                        <span class="textarea-validation" [class.is-visible]="!message.valid && message.touched">*Please enter a message</span>
+                    </div>
+                </div>
+                <div class="checkbox-container">
+                    <input #checkbox="ngModel" [(ngModel)]="privacyAccepted" type="checkbox" id="checkbox"
+                        name="checkbox" required>
+                    <label class="checkbox-label" for="checkbox">{{'form.check' | transloco}}<a
+                            [routerLink]="'/privacy-policy'">{{'form.checkLink' |
+                            transloco}} </a>{{'form.check1' | transloco}} </label>
+                </div>
+                <button type="submit" class="submit-btn" [class.send-animation]="sendAnimationActive"
+                    [disabled]="!contactForm.valid">
+                    <span class="btn-text">{{'form.buttonText' | transloco}}</span>
+                    <img class="btn-arrow" src="img/arrow_forward_white.svg" alt="">
+                </button>
+            </form>
+        </div>
+    </section>
+</div>

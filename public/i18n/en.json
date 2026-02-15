@@ -93,6 +93,7 @@
         "buttonText": "Say Hello :)"
     },
     "footer": {
+        "scrollUp": "Back to top",
         "job": "Web Developer",
         "location": "Memmingen Germany",
         "legalNotice": "Legal Notice"

@@ -1,3 +1,9 @@
+.wrapper{
+    
+    display:flex;
+    justify-content: center;
+    background-color: #1c1c1c;
+}
 section {
     display: flex;
     flex-direction: column;
@@ -14,9 +20,9 @@ section {
         left: 0;
         width: 25%;
         height: 100%;
-        background: linear-gradient(to right, rgba(30, 30, 30, 0.9), transparent);
         z-index: 2;
         pointer-events: none;
+        background-image: linear-gradient(to right, rgba(30, 30, 30, 0.9), transparent 25%);
     }
 
     &::after {
@@ -26,9 +32,9 @@ section {
         right: 0;
         width: 25%;
         height: 100%;
-        background: linear-gradient(to left, rgba(30, 30, 30, 0.9), transparent);
         z-index: 2;
         pointer-events: none;
+        background-image: linear-gradient(to left, rgba(30, 30, 30, 0.9), transparent 25%);
     }
 
     span {
@@ -173,6 +179,12 @@ section {
                 transform: translateX(-50%) scale(0.9);
             }
         }
+    }
+}
+
+@media(min-width: 1921px){
+    section{
+        margin: 0 144px;
     }
 }
 

@@ -1,3 +1,9 @@
+.wrapper {
+    background-image: url("/img/background2_left.png");
+    background-position: center;
+    background-size: cover;
+}
+
 section {
     background-image: url("/img/background2_left.png");
     background-position: center;
@@ -8,6 +14,7 @@ section {
     align-items: center;
     padding: 144px 96px;
     gap: 40px;
+    box-sizing: border-box;
 
     .skills-content {
         border: 1px solid #3DCFB6;
