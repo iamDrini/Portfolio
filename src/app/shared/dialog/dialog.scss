@@ -140,6 +140,11 @@
         flex-direction: column-reverse;
         align-items: center;
         position: relative;
+        max-height: 600px;
+        overflow-y: scroll;
+        &::-webkit-scrollbar{
+            display: none;
+        }
 
         .next-project-mobile {
             display: inline-flex !important;
@@ -163,6 +168,7 @@
 @media(max-width: 625px) {
     .dialog {
         justify-content: flex-end !important;
+        overflow:unset !important;
 
         .left-content {
             .link-container {
