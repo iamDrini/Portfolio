@@ -49,6 +49,22 @@ body {
   position: relative;
   margin: 0 auto;
   overflow-x: hidden;
+
+  &::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(
+      circle 400px at var(--mouse-x) var(--mouse-y),
+      rgba(61, 207, 182, 0.15),
+      transparent 80%
+    );
+    pointer-events: none;
+    z-index: 9999;
+  }
 }
 
 section, nav {
@@ -257,15 +273,9 @@ h4 {
   /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
 
-@media(max-width: 1200px) {
-  h1 {
-    font-size: 96px !important;
-  }
-}
-
 @media(max-width:1000px) {
   h1 {
-    font-size: 64px !important;
+    font-size: 58px !important;
   }
 
   h2 {
@@ -273,7 +283,7 @@ h4 {
   }
 }
 
-@media(max-width: 640px) {
+@media(max-width: 840px) {
   h1 {
     font-size: 40px !important;
   }
@@ -286,7 +296,7 @@ h4 {
   }
 }
 
-@media(max-width:430px) {
+@media(max-width:530px) {
   h1 {
     font-size: 28px !important;
   }
@@ -296,7 +306,7 @@ h4 {
   }
 }
 
-@media(max-width: 360px) {
+@media(max-width: 375px) {
   h1 {
     font-size: 22px !important;
   }
