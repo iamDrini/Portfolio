@@ -58,6 +58,7 @@ section {
     .div-email{
         transform: translateY(-700%) rotate(-90deg);
         letter-spacing: 2px;
+        transition: transform 0.2s ease-in;
         &:hover{
             color:#3DCFB6;
             transform: translateY(-700%) rotate(-90deg) scale(1.2);
