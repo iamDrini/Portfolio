@@ -5,7 +5,7 @@
         "projects": "Projekte"
     },
     "landing": {
-        "frontend": "Frontend-Entwickler",
+        "frontend": "Software Entwickler",
         "check": "Meine Projekte",
         "contact": "Kontakt aufnehmen",
         "based": "Aus Memmingen",
@@ -15,7 +15,7 @@
     "aboutMe": {
         "topic": "Wer ich bin",
         "title": "Über mich",
-        "text": "Hi, ich bin Valdrin Murselji, frontend-orientierter Entwickler mit einem abgeschlossenen Bachelor in Wirtschaftsinformatik. Ich entwickle gerne Interfaces, die tatsächlich genutzt werden, und arbeite dabei an der Schnittstelle aus Logik, Struktur und visuellem Design. Aus Ideen saubere und funktionierende Benutzeroberflächen zu bauen, motiviert mich besonders.",
+        "text": "Hi, ich bin Valdrin Murselji, Entwickler mit einem abgeschlossenen Bachelor in Wirtschaftsinformatik. Ich entwickle gerne Interfaces, die tatsächlich genutzt werden, und arbeite dabei an der Schnittstelle aus Logik, Struktur und visuellem Design. Aus Ideen saubere und funktionierende Benutzeroberflächen zu bauen, motiviert mich besonders.",
         "location": "Memmingen, Deutschland – offen für Remote-Arbeit.",
         "learning": "Aktuell liegt mein Fokus auf Angular, mit dem Ziel, gut strukturierte und wartbare Komponenten zu entwickeln. Langfristig interessiert mich auch der Backend-Bereich, um Anwendungen ganzheitlich zu verstehen und auf allen Ebenen mitarbeiten zu können. Ich lerne am besten durch praktisches Ausprobieren und kontinuierliche Verbesserung.",
         "solving": "Ich gehe Probleme analytisch an und lege Wert auf Performance und Wartbarkeit. Zusammenarbeit im Team ist mir wichtig, besonders beim Austausch von Ideen und Lösungsansätzen."
@@ -23,7 +23,7 @@
     "skills": {
         "topic": "Technologien",
         "title": "Skillset",
-        "text": "Ich habe praktische Erfahrung mit zentralen Frontend-Technologien wie HTML, CSS, JavaScript und TypeScript sowie mit Frameworks und Tools wie Angular, Material Design und Firebase. Zudem arbeite ich regelmäßig mit Git, REST-APIs und nach agilen Prinzipien wie Scrum. Ich bin offen für neue Technologien und lege großen Wert darauf, meine Fähigkeiten kontinuierlich weiterzuentwickeln, da ständiges Lernen in der sich schnell verändernden Welt der Webentwicklung unerlässlich ist.",
+        "text": "Ich habe praktische Erfahrung mit zentralen Frontend-Technologien wie HTML, CSS, JavaScript und TypeScript sowie mit Frameworks und Tools wie Angular, Material Design, Firebase und Supabase. Bereits während meines Studiums habe ich mich zudem intensiv mit der Backend-Programmierung beschäftigt und fundierte Kenntnisse in Java und SQL erworben. Im Rahmen meiner Abschlussarbeit kam darüber hinaus Python zum Einsatz. Zudem arbeite ich regelmäßig mit Git, REST-APIs und nach agilen Prinzipien wie Scrum. Ich bin offen für neue Technologien und lege großen Wert darauf, meine Fähigkeiten kontinuierlich weiterzuentwickeln, da ständiges Lernen in der sich schnell verändernden Welt der Webentwicklung unerlässlich ist.",
         "question": {
             "part1": "Brauchen Sie",
             "part2": " eine weitere Fähigkeit?"
