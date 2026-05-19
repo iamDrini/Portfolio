@@ -67,6 +67,16 @@
             "gitHubLink": "<a href='https://github.com/iamDrini/El-Pollo-Loco' target='_blank'>Github <img src='img/arrow_outward.svg'></a>",
             "liveTestLink": "<a href='https://valdrin-murselji.com/El-Pollo-Loco/' target='_blank'>Live Test <img src='img/arrow_outward.svg'></a>",
             "imgSrc": "img/portfolio/pollo_screen.svg"
+        },
+        "pollapp":{
+            "number": "04",
+            "title": "PollApp",
+            "question":"Worum geht es in diesem Projekt?",
+            "text": "Eine Abstimmungsplattform welche ich mit Angular und Supabase (BaaS) umsetzen konnte. Es können dort Abstimmungen mit einer variablen Anzahl an Fragen und Antworten erstellt werden. Diese Abstimmungen werden von der DB geladen und User können mit Live Ergebnissen daran teilnehmen.",
+            "technologies": "<div><img src='img/skills/CSS.png'><span>CSS</span></div><div><img src='img/skills/HTML.png'><span>HTML</span></div><div><img src='img/skills/TypeScript.png'><span>TypeScript</span></div><div><img src='img/skills/Angular.png'><span>Angular</span></div><div><img src='img/skills/SQL.png'><span>SQL</span></div>",
+            "gitHubLink":"<a href='https://github.com/iamDrini/PollApp' target='_blank'>Github <img src='img/arrow_outward.svg'></a>",
+            "liveTestLink": "<a href='https://valdrin-murselji.com/PollApp/' target='_blank'>Live Test <img src='img/arrow_outward.svg'></a>",
+            "imgSrc": "img/portfolio/pollapp_screen.png"
         }
     },
     "feedback": {
@@ -77,7 +87,7 @@
         "title": "Lassen Sie uns zusammenarbeiten",
         "slogan": "Haben Sie ein Problem zu lösen?",
         "text": "Ich bin an einer Frontend-Rolle interessiert, in der ich das Team aktiv unterstützen und durch sauberen, gut strukturierten Code echten Mehrwert schaffen kann. Meine hohe Lernfähigkeit und mein Ehrgeiz spiegeln sich in den vielen eigenständig umgesetzten Projekten sowie in der Vielfalt der Technologien wider, mit denen ich gearbeitet habe. Gleichzeitig suche ich ein Unternehmen, das meine fachliche Weiterentwicklung unterstützt, damit ich mein Kompetenzspektrum kontinuierlich erweitern und dem Team perspektivisch auch als Full-Stack-Entwickler dienen kann.",
-        "question": "Suchen Sie einen Frontend-Entwickler?",
+        "question": "Suchen Sie einen Software-Entwickler?",
         "catch": "Lassen Sie uns sprechen!"
     },
     "form": {

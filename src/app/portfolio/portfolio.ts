@@ -12,9 +12,9 @@ import { Dialog } from '../shared/dialog/dialog';
 })
 export class Portfolio {
   readonly dialog = inject(MatDialog);
-  projects: ('pokedex' | 'join' | 'pollo')[] = ['pokedex', 'join', 'pollo'];
+  projects: ('pokedex' | 'join' | 'pollo' | 'pollapp')[] = ['pokedex', 'join', 'pollo', 'pollapp'];
 
-  openDialog(type: 'pokedex' | 'join'| 'pollo'){
+  openDialog(type: 'pokedex' | 'join'| 'pollo' | 'pollapp'){
     const currentIndex = this.projects.indexOf(type);
     this.dialog.open(Dialog, {
       data: {

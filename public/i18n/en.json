@@ -68,6 +68,17 @@
             "liveTestLink": "<a href='https://valdrin-murselji.com/El-Pollo-Loco/' target='_blank'>Live Test <img src='img/arrow_outward.svg'></a>",
             "imgSrc": "img/portfolio/pollo_screen.svg"
         }
+        ,
+        "pollapp":{
+            "number": "04",
+            "title": "PollApp",
+            "question":"What is this project about?",
+            "text": "A polling platform I implemented with Angular and Supabase (BaaS). It allows creating polls with a variable number of questions and answers. Polls are loaded from the database and users can participate and see live results.",
+            "technologies": "<div><img src='img/skills/CSS.png'><span>CSS</span></div><div><img src='img/skills/HTML.png'><span>HTML</span></div><div><img src='img/skills/TypeScript.png'><span>TypeScript</span></div><div><img src='img/skills/Angular.png'><span>Angular</span></div><div><img src='img/skills/SQL.png'><span>SQL</span></div>",
+            "gitHubLink":"<a href='https://github.com/iamDrini/PollApp' target='_blank'>Github <img src='img/arrow_outward.svg'></a>",
+            "liveTestLink": "<a href='https://valdrin-murselji.com/El-Pollo-Loco/' target='_blank'>Live Test <img src='img/arrow_outward.svg'></a>",
+            "imgSrc": "img/portfolio/pollapp_screen.png"
+        }
     },
     "feedback": {
         "title": "What my colleagues say about me"
